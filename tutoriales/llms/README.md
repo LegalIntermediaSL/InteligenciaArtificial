@@ -12,6 +12,7 @@ Introducción a los modelos de lenguaje de gran escala (Large Language Models): 
 | 04 | [Agentes de IA](./04-agentes-ia.md) | ReAct, tool use, bucle agéntico y multi-agente |
 | 05 | [RAG completo con ChromaDB](./05-rag-chromadb.md) | Ingesta, búsqueda semántica, generación y evaluación |
 | 06 | [Fine-tuning con LoRA](./06-finetuning-lora.md) | QLoRA local, datasets, entrenamiento y despliegue |
+| 07 | [Tipos y Arquitecturas de Agentes](./07-tipos-agentes.md) | Reactivo, BDI, jerárquico, Swarm, memoria, planificación, frameworks |
 
 ## Requisitos
 
@@ -19,7 +20,7 @@ Ninguno para los tutoriales teóricos. Los ejemplos de código requieren Python 
 
 ## Orden recomendado
 
-01 → 02 → 03 → 04 → 05 → 06
+01 → 02 → 03 → 04 → 07 → 05 → 06
 
 ---
 

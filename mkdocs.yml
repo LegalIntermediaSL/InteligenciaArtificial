@@ -70,6 +70,7 @@ nav:
     - '04 · Agentes de IA': tutoriales/llms/04-agentes-ia.md
     - '05 · RAG con ChromaDB': tutoriales/llms/05-rag-chromadb.md
     - '06 · Fine-tuning con LoRA': tutoriales/llms/06-finetuning-lora.md
+    - '07 · Tipos de Agentes': tutoriales/llms/07-tipos-agentes.md
   - Bloque 3 — APIs de IA:
     - Índice: tutoriales/apis/README.md
     - '01 · API de Anthropic (Claude)': tutoriales/apis/01-api-anthropic-claude.md
