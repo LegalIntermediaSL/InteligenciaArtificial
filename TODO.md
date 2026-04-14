@@ -79,11 +79,11 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 
 ---
 
-## Mejoras futuras
+## Mejoras futuras ✅
 
-- [ ] Añadir CI/CD para validar notebooks
-- [ ] Publicar como GitHub Pages / documentación web
-- [ ] Añadir ejemplos en JavaScript (LangChain.js, Vercel AI SDK)
-- [ ] Notebook para agentes de IA
-- [ ] Notebook para RAG con ChromaDB
-- [ ] Notebook para fine-tuning con LoRA
+- [x] Añadir CI/CD para validar notebooks (`.github/workflows/validate-notebooks.yml`)
+- [x] Publicar como GitHub Pages (`.github/workflows/gh-pages.yml` + `mkdocs.yml`)
+- [x] Añadir ejemplos en JavaScript (`javascript/` — LangChain.js, Vercel AI SDK)
+- [x] Notebook para agentes de IA (`notebooks/llms/04-agentes-ia.ipynb`)
+- [x] Notebook para RAG con ChromaDB (`notebooks/llms/05-rag-chromadb.ipynb`)
+- [x] Notebook para fine-tuning con LoRA (`notebooks/llms/06-finetuning-lora.ipynb`)

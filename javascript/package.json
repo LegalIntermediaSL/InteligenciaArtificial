@@ -1,0 +1,23 @@
+{
+  "name": "ia-javascript-ejemplos",
+  "version": "1.0.0",
+  "description": "Ejemplos de IA en JavaScript: LangChain.js y Vercel AI SDK",
+  "type": "module",
+  "scripts": {
+    "langchain": "node 01-langchain-js.js",
+    "vercel-ai": "node 02-vercel-ai-sdk.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@langchain/anthropic": "^0.3.0",
+    "@langchain/core": "^0.3.0",
+    "@langchain/community": "^0.3.0",
+    "@ai-sdk/anthropic": "^1.0.0",
+    "ai": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "langchain": "^0.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

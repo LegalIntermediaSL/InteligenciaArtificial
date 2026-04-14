@@ -1,0 +1,101 @@
+site_name: Inteligencia Artificial — Tutoriales
+site_description: Repositorio de tutoriales y recursos sobre Inteligencia Artificial, LLMs, APIs y Python
+site_author: LegalIntermediaSL
+site_url: https://legalintermediasl.github.io/InteligenciaArtificial/
+
+repo_name: LegalIntermediaSL/InteligenciaArtificial
+repo_url: https://github.com/LegalIntermediaSL/InteligenciaArtificial
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: es
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: README.md
+  - Bloque 1 — Fundamentos:
+    - Índice: tutoriales/fundamentos/README.md
+    - '01 · ¿Qué es la IA?': tutoriales/fundamentos/01-que-es-la-ia.md
+    - '02 · Tipos de IA': tutoriales/fundamentos/02-tipos-de-ia.md
+    - '03 · Historia de la IA': tutoriales/fundamentos/03-historia-de-la-ia.md
+  - Bloque 2 — LLMs:
+    - Índice: tutoriales/llms/README.md
+    - '01 · ¿Qué es un LLM?': tutoriales/llms/01-que-es-un-llm.md
+    - '02 · Prompt Engineering': tutoriales/llms/02-prompt-engineering.md
+    - '03 · Fine-tuning vs RAG': tutoriales/llms/03-finetuning-vs-rag.md
+    - '04 · Agentes de IA': tutoriales/llms/04-agentes-ia.md
+    - '05 · RAG con ChromaDB': tutoriales/llms/05-rag-chromadb.md
+    - '06 · Fine-tuning con LoRA': tutoriales/llms/06-finetuning-lora.md
+  - Bloque 3 — APIs de IA:
+    - Índice: tutoriales/apis/README.md
+    - '01 · API de Anthropic (Claude)': tutoriales/apis/01-api-anthropic-claude.md
+    - '02 · API de OpenAI': tutoriales/apis/02-api-openai.md
+    - '03 · Comparativa de proveedores': tutoriales/apis/03-comparativa-proveedores.md
+  - Bloque 4 — Python para IA:
+    - Índice: tutoriales/python-para-ia/README.md
+    - '01 · Intro Python para IA': tutoriales/python-para-ia/01-intro-python-ia.md
+    - '02 · Librerías esenciales': tutoriales/python-para-ia/02-librerias-esenciales.md
+    - '03 · Jupyter Notebooks': tutoriales/python-para-ia/03-jupyter-notebooks.md
+  - Bloque 5 — Casos de uso:
+    - Índice: tutoriales/casos-de-uso/README.md
+    - '01 · Chatbot con Claude API': tutoriales/casos-de-uso/01-chatbot-claude-api.md
+    - '02 · Clasificación de texto': tutoriales/casos-de-uso/02-clasificacion-texto.md
+    - '03 · Resumen de documentos': tutoriales/casos-de-uso/03-resumen-documentos.md
+    - '04 · Extracción de PDFs': tutoriales/casos-de-uso/04-extraccion-pdfs.md
+  - Bloque 6 — JavaScript:
+    - Índice: javascript/README.md
+    - '01 · LangChain.js': javascript/01-langchain-js.md
+    - '02 · Vercel AI SDK': javascript/02-vercel-ai-sdk.md
+  - Notebooks: tutoriales/notebooks/README.md
+  - Hoja de ruta: TODO.md
+  - Bitácora: BITACORA.md
+  - Changelog: CHANGELOG.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/LegalIntermediaSL/InteligenciaArtificial

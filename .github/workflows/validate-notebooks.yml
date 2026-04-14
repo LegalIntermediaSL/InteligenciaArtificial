@@ -1,0 +1,96 @@
+name: Validar Notebooks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tutoriales/notebooks/**/*.ipynb'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tutoriales/notebooks/**/*.ipynb'
+
+jobs:
+  validate:
+    name: Validar estructura de notebooks
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependencias de validación
+        run: |
+          pip install nbformat nbconvert
+
+      - name: Validar formato JSON de notebooks
+        run: |
+          python - <<'EOF'
+          import nbformat
+          import sys
+          from pathlib import Path
+
+          errores = []
+          notebooks = list(Path('tutoriales/notebooks').rglob('*.ipynb'))
+          print(f'Notebooks encontrados: {len(notebooks)}')
+
+          for nb_path in sorted(notebooks):
+              try:
+                  with open(nb_path, encoding='utf-8') as f:
+                      nb = nbformat.read(f, as_version=4)
+                  nbformat.validate(nb)
+                  print(f'  ✓ {nb_path}')
+              except Exception as e:
+                  errores.append(f'  ✗ {nb_path}: {e}')
+                  print(f'  ✗ {nb_path}: {e}')
+
+          if errores:
+              print(f'\n{len(errores)} error(es) encontrado(s)')
+              sys.exit(1)
+          else:
+              print(f'\nTodos los notebooks son válidos ✓')
+          EOF
+
+      - name: Verificar que los notebooks tienen metadata mínima
+        run: |
+          python - <<'EOF'
+          import json
+          import sys
+          from pathlib import Path
+
+          advertencias = []
+          notebooks = list(Path('tutoriales/notebooks').rglob('*.ipynb'))
+
+          for nb_path in sorted(notebooks):
+              with open(nb_path, encoding='utf-8') as f:
+                  nb = json.load(f)
+
+              # Verificar que tiene al menos una celda
+              celdas = nb.get('cells', [])
+              if len(celdas) == 0:
+                  advertencias.append(f'  ⚠ {nb_path}: sin celdas')
+
+              # Verificar que la primera celda es markdown con título
+              if celdas and celdas[0].get('cell_type') != 'markdown':
+                  advertencias.append(f'  ⚠ {nb_path}: primera celda no es markdown')
+
+          if advertencias:
+              print('Advertencias:')
+              for a in advertencias:
+                  print(a)
+          else:
+              print('Estructura de notebooks correcta ✓')
+          EOF
+
+      - name: Resumen
+        if: always()
+        run: |
+          echo "=== Notebooks validados ==="
+          find tutoriales/notebooks -name "*.ipynb" | sort | wc -l
+          echo "notebook(s) en el repositorio"
