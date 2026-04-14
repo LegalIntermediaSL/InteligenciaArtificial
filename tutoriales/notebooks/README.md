@@ -38,6 +38,7 @@ Las celdas de texto de los notebooks usan sintaxis Markdown. Consulta esta cheat
 
 - [Markdown for Jupyter Notebooks — IBM Watson Studio Cheatsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
 - [JupyterLab Cheat Sheet (PDF)](./Jupyterlab_Cheat_Sheet.pdf)
+- [Atajos de teclado de Jupyter Notebook — Cheatography](https://cheatography.com/jorgejuan007/cheat-sheets/jupyter-notebook-atajos-de-teclado/)
 
 ## Convenciones
 
