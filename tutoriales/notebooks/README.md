@@ -32,6 +32,12 @@ Instala la extensión **Jupyter** de Microsoft. Abre cualquier `.ipynb` directam
 
 Sube el `.ipynb` a [colab.research.google.com](https://colab.research.google.com) o ábrelo directamente desde GitHub.
 
+## Referencia de Markdown para Jupyter
+
+Las celdas de texto de los notebooks usan sintaxis Markdown. Consulta esta cheatsheet para usarla con soltura:
+
+- [Markdown for Jupyter Notebooks — IBM Watson Studio Cheatsheet](https://www.ibm.com/docs/en/watson-studio-local/1.2.3?topic=notebooks-markdown-jupyter-cheatsheet)
+
 ## Convenciones
 
 - Los notebooks se nombran igual que su tutorial de referencia: `01-que-es-la-ia.ipynb`
