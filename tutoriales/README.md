@@ -11,10 +11,10 @@ Los tutoriales en **Markdown** explican los conceptos de forma estructurada. Los
 | # | Bloque | Descripción | Estado |
 |---|---|---|---|
 | 1 | [Fundamentos](./fundamentos/) | Conceptos base de IA, tipos y historia | En curso |
-| 2 | [LLMs](./llms/) | Modelos de lenguaje, prompt engineering, RAG | Pendiente |
-| 3 | [APIs de IA](./apis/) | Claude (Anthropic), OpenAI y otros proveedores | Pendiente |
-| 4 | [Python para IA](./python-para-ia/) | Librerías esenciales, pipelines, Jupyter | Pendiente |
-| 5 | [Casos de uso](./casos-de-uso/) | Proyectos prácticos completos | Pendiente |
+| 2 | [LLMs](./llms/) | LLMs, prompt engineering, agentes, RAG, fine-tuning | Completo |
+| 3 | [APIs de IA](./apis/) | Claude (Anthropic), OpenAI y otros proveedores | Completo |
+| 4 | [Python para IA](./python-para-ia/) | Librerías esenciales, pipelines, Jupyter | Completo |
+| 5 | [Casos de uso](./casos-de-uso/) | Proyectos prácticos completos | Completo |
 | 6 | [Notebooks](./notebooks/) | Cuadernos Jupyter interactivos de todos los bloques | En curso |
 
 ---

@@ -4,7 +4,7 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 
 ---
 
-## Estructura y organización
+## Estructura y organización ✅
 
 - [x] Crear estructura base del repositorio
 - [x] Redactar `README.md` con objetivo del proyecto
@@ -12,7 +12,7 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] Crear `BITACORA.md`
 - [x] Crear carpeta `tutoriales/`
 - [x] Definir subcarpetas por temática dentro de `tutoriales/`
-- [ ] Añadir `requirements.txt` base
+- [x] Añadir `requirements.txt` por carpeta
 
 ---
 
@@ -30,6 +30,9 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] ¿Qué es un LLM? Cómo funcionan los modelos de lenguaje
 - [x] Prompt engineering: técnicas y buenas prácticas
 - [x] Fine-tuning vs RAG: cuándo usar cada uno
+- [x] Agentes de IA: ReAct, tool use, bucle agéntico
+- [x] RAG completo con ChromaDB
+- [x] Fine-tuning con LoRA y QLoRA
 - [x] Notebook: 02-prompt-engineering.ipynb
 
 ---
@@ -58,6 +61,8 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] Resumen automático de documentos (map-reduce, refine)
 - [x] Extracción de información de PDFs con IA
 - [x] Notebook: 01-chatbot-claude-api.ipynb
+- [x] Notebook: 02-clasificacion-texto.ipynb
+- [x] Notebook: 03-resumen-documentos.ipynb
 - [x] Notebook: 04-extraccion-pdfs.ipynb
 
 ---
@@ -68,18 +73,17 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] notebooks/llms/02-prompt-engineering.ipynb
 - [x] notebooks/apis/01-api-anthropic-claude.ipynb
 - [x] notebooks/casos-de-uso/01-chatbot-claude-api.ipynb
+- [x] notebooks/casos-de-uso/02-clasificacion-texto.ipynb
+- [x] notebooks/casos-de-uso/03-resumen-documentos.ipynb
 - [x] notebooks/casos-de-uso/04-extraccion-pdfs.ipynb
-- [ ] notebooks/casos-de-uso/02-clasificacion-texto.ipynb
-- [ ] notebooks/casos-de-uso/03-resumen-documentos.ipynb
 
 ---
 
 ## Mejoras futuras
 
-- [ ] Añadir requirements.txt por carpeta
 - [ ] Añadir CI/CD para validar notebooks
 - [ ] Publicar como GitHub Pages / documentación web
 - [ ] Añadir ejemplos en JavaScript (LangChain.js, Vercel AI SDK)
-- [ ] Tutorial sobre agentes de IA (ReAct, function calling avanzado)
-- [ ] Tutorial sobre RAG completo con ChromaDB
-- [ ] Tutorial sobre fine-tuning con LoRA
+- [ ] Notebook para agentes de IA
+- [ ] Notebook para RAG con ChromaDB
+- [ ] Notebook para fine-tuning con LoRA
