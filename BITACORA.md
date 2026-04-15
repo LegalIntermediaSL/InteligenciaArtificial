@@ -4,6 +4,32 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-15 (v0.5.0)
+
+### Bloques 7, 8 y 9 — Producción, Multimodalidad y Agentes avanzados
+
+- Se añade el **Bloque 7 — Producción y evaluación** (`tutoriales/produccion/`):
+  - `01-evaluacion-llms.md`: métricas automáticas (BLEU/ROUGE), patrón LLM-as-judge con rúbrica JSON, framework de evaluación con dataset de referencia, evaluación de RAG con ragas.
+  - `02-observabilidad.md`: decorador de logging JSONL, tracing con Langfuse, dashboard de costes con pandas, sistema de alertas con ventana deslizante.
+  - `03-optimizacion-costos.md`: contador de tokens, Prompt Caching de Anthropic con `cache_control`, Batch API con `MessageBatch`, compresión de historial, calculadora de costes comparativa.
+  - `04-despliegue.md`: API REST con FastAPI + Pydantic, streaming SSE, rate limiting con slowapi, retry con backoff exponencial, Dockerfile multi-stage, docker-compose.
+
+- Se añade el **Bloque 8 — Multimodalidad** (`tutoriales/multimodalidad/`):
+  - `01-vision-llms.md`: análisis de imágenes locales (base64) y por URL con Claude, extractor de facturas a JSON con Pydantic, comparación de imágenes, transcripción de documentos escaneados.
+  - `02-generacion-imagenes.md`: DALL-E 3 (generación y edición/inpainting), prompt engineering para imágenes, Stable Diffusion local con diffusers, pipeline Claude→DALL-E.
+  - `03-voz-ia.md`: Whisper local y vía API (con partición de audio largo), TTS con OpenAI, pipeline completo voz→Claude→voz, asistente de reuniones con Pydantic.
+
+- Se añade el **Bloque 9 — Agentes avanzados** (`tutoriales/agentes-avanzados/`):
+  - `01-multi-agente.md`: arquitecturas (orquestador-trabajadores, par a par, jerárquica), implementación manual con `tool_use` de Anthropic, CrewAI, comunicación asíncrona con `asyncio.Queue`.
+  - `02-model-context-protocol.md`: arquitectura MCP, servidor con herramientas (`@servidor.list_tools`) y recursos (`@servidor.list_resources`), configuración de Claude Desktop.
+  - `03-computer-use.md`: bucle de control completo con PyAutoGUI, automatización de formularios con Playwright, scraping visual, lista blanca de seguridad.
+  - `04-memoria-largo-plazo.md`: memoria episódica JSON con extracción de hechos por Claude, memoria semántica con ChromaDB + sentence-transformers, compresión automática de historial, clase `MemoryManager` integrada.
+
+- Se actualiza `mkdocs.yml` con las 3 nuevas secciones de navegación.
+- Se actualiza `TODO.md` con los nuevos bloques marcados como completados.
+
+---
+
 ## 2026-04-14 (v0.4.0)
 
 ### CI/CD y GitHub Pages

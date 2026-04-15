@@ -87,3 +87,32 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] Notebook para agentes de IA (`notebooks/llms/04-agentes-ia.ipynb`)
 - [x] Notebook para RAG con ChromaDB (`notebooks/llms/05-rag-chromadb.ipynb`)
 - [x] Notebook para fine-tuning con LoRA (`notebooks/llms/06-finetuning-lora.ipynb`)
+
+---
+
+## Bloque 7 — Producción y evaluación ✅
+
+- [x] `tutoriales/produccion/README.md`
+- [x] `01-evaluacion-llms.md` — LLM-as-judge, métricas automáticas, ragas para RAG
+- [x] `02-observabilidad.md` — Logging, tracing con Langfuse, alertas
+- [x] `03-optimizacion-costos.md` — Prompt Caching, Batch API, compresión de contexto
+- [x] `04-despliegue.md` — FastAPI, streaming, rate limiting, Docker
+
+---
+
+## Bloque 8 — Multimodalidad ✅
+
+- [x] `tutoriales/multimodalidad/README.md`
+- [x] `01-vision-llms.md` — Análisis de imágenes, extracción de facturas, comparación
+- [x] `02-generacion-imagenes.md` — DALL-E 3, Stable Diffusion, pipeline LLM+imágenes
+- [x] `03-voz-ia.md` — Whisper, TTS, pipeline voz→IA→voz, asistente de reuniones
+
+---
+
+## Bloque 9 — Agentes avanzados ✅
+
+- [x] `tutoriales/agentes-avanzados/README.md`
+- [x] `01-multi-agente.md` — Orquestador manual, CrewAI, comunicación asíncrona
+- [x] `02-model-context-protocol.md` — Servidor MCP, herramientas, recursos, Claude Desktop
+- [x] `03-computer-use.md` — Bucle de control, automatización de formularios, scraping visual
+- [x] `04-memoria-largo-plazo.md` — Memoria episódica JSON, semántica ChromaDB, compresión

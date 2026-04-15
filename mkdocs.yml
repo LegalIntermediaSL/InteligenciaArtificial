@@ -91,6 +91,23 @@ nav:
     - Índice: javascript/README.md
     - '01 · LangChain.js': javascript/01-langchain-js.md
     - '02 · Vercel AI SDK': javascript/02-vercel-ai-sdk.md
+  - Bloque 7 — Producción y evaluación:
+    - Índice: tutoriales/produccion/README.md
+    - '01 · Evaluación de LLMs': tutoriales/produccion/01-evaluacion-llms.md
+    - '02 · Observabilidad y tracing': tutoriales/produccion/02-observabilidad.md
+    - '03 · Optimización de costos': tutoriales/produccion/03-optimizacion-costos.md
+    - '04 · Despliegue con FastAPI y Docker': tutoriales/produccion/04-despliegue.md
+  - Bloque 8 — Multimodalidad:
+    - Índice: tutoriales/multimodalidad/README.md
+    - '01 · Visión con LLMs': tutoriales/multimodalidad/01-vision-llms.md
+    - '02 · Generación de imágenes': tutoriales/multimodalidad/02-generacion-imagenes.md
+    - '03 · Voz e IA': tutoriales/multimodalidad/03-voz-ia.md
+  - Bloque 9 — Agentes avanzados:
+    - Índice: tutoriales/agentes-avanzados/README.md
+    - '01 · Sistemas multi-agente': tutoriales/agentes-avanzados/01-multi-agente.md
+    - '02 · Model Context Protocol': tutoriales/agentes-avanzados/02-model-context-protocol.md
+    - '03 · Computer Use': tutoriales/agentes-avanzados/03-computer-use.md
+    - '04 · Memoria a largo plazo': tutoriales/agentes-avanzados/04-memoria-largo-plazo.md
   - Notebooks: tutoriales/notebooks/README.md
   - Hoja de ruta: TODO.md
   - Bitácora: BITACORA.md
