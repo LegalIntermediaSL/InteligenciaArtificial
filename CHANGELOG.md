@@ -11,6 +11,17 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.5.0] — 2026-04-15
+
+### Añadido
+- **Tutorial 08 — LangGraph** (`tutoriales/llms/08-langgraph.md`): StateGraph, nodos, edges condicionales, ciclos agénticos, ToolNode, MemorySaver, SqliteSaver, human-in-the-loop con `interrupt_before`, patrones multi-agente (Supervisor + subagentes), fan-out/fan-in, streaming con `.stream()` y `.astream_events()`
+- **Tutorial 09 — Modelos locales con Ollama** (`tutoriales/llms/09-modelos-locales-ollama.md`): análisis detallado de ventajas (privacidad, coste cero, latencia, offline, reproducibilidad, personalización), instalación, catálogo de modelos y cuantización, integración con Python, API compatible OpenAI, LangChain, RAG completamente local, guía de decisión local vs cloud
+- **Tutorial 10 — MCP: Model Context Protocol** (`tutoriales/llms/10-mcp.md`): arquitectura del protocolo JSON-RPC, primitivas (Tools, Resources, Prompts), creación de servidores MCP en Python, conexión con Claude Desktop, servidores oficiales (Filesystem, GitHub, Postgres, Brave Search…), flujos con NotebookLM y Notion, cliente MCP en Python, comparativa MCP vs Tool Use directo, seguridad
+- **Notebook 08** (`tutoriales/notebooks/llms/08-langgraph.ipynb`): grafo mínimo, ciclo con ToolNode, streaming por eventos, MemorySaver multi-sesión, human-in-the-loop, sistema multi-agente con Supervisor
+- **Notebook 09** (`tutoriales/notebooks/llms/09-modelos-locales-ollama.ipynb`): generación básica y streaming, conversación con historial, benchmark de velocidad, salida JSON estructurada, embeddings locales, API OpenAI-compatible, LangChain con modelo local, RAG 100% local, Modelfiles personalizados
+
+---
+
 ## [0.4.0] — 2026-04-14
 
 ### Añadido

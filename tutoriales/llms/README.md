@@ -13,6 +13,9 @@ Introducción a los modelos de lenguaje de gran escala (Large Language Models): 
 | 05 | [RAG completo con ChromaDB](./05-rag-chromadb.md) | Ingesta, búsqueda semántica, generación y evaluación |
 | 06 | [Fine-tuning con LoRA](./06-finetuning-lora.md) | QLoRA local, datasets, entrenamiento y despliegue |
 | 07 | [Tipos y Arquitecturas de Agentes](./07-tipos-agentes.md) | Reactivo, BDI, jerárquico, Swarm, memoria, planificación, frameworks |
+| 08 | [LangGraph](./08-langgraph.md) | StateGraph, edges condicionales, ciclos, checkpointing, human-in-the-loop, multi-agente |
+| 09 | [Modelos locales con Ollama](./09-modelos-locales-ollama.md) | Privacidad, coste cero, instalación, catálogo de modelos, integración Python y LangChain |
+| 10 | [MCP: Model Context Protocol](./10-mcp.md) | Protocolo de herramientas estándar, servidores oficiales, NotebookLM, integración en apps |
 
 ## Requisitos
 
@@ -20,7 +23,7 @@ Ninguno para los tutoriales teóricos. Los ejemplos de código requieren Python 
 
 ## Orden recomendado
 
-01 → 02 → 03 → 04 → 07 → 05 → 06
+01 → 02 → 03 → 04 → 07 → 08 → 09 → 10 → 05 → 06
 
 ---
 

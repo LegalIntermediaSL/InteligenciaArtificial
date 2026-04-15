@@ -79,6 +79,27 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 
 ---
 
+## Bloque 2 — Extensiones avanzadas (Agentes y Modelos) ✅
+
+- [x] Tutorial LangGraph: StateGraph, ciclos, checkpointing, human-in-the-loop, multi-agente (`tutoriales/llms/08-langgraph.md`)
+- [x] Tutorial Modelos locales con Ollama: ventajas privacidad/coste, catálogo, integración Python/LangChain, RAG local (`tutoriales/llms/09-modelos-locales-ollama.md`)
+- [x] Tutorial MCP — Model Context Protocol: servidores, primitivas, Claude Desktop, NotebookLM, seguridad (`tutoriales/llms/10-mcp.md`)
+- [x] Notebook LangGraph (`notebooks/llms/08-langgraph.ipynb`)
+- [x] Notebook Ollama (`notebooks/llms/09-modelos-locales-ollama.ipynb`)
+
+---
+
+## Próximas extensiones planificadas
+
+- [ ] Tutorial evaluación de agentes (LLM-as-judge, benchmarks, LangSmith)
+- [ ] Tutorial memoria persistente (Mem0, episodic memory, retrieval memory)
+- [ ] Tutorial structured outputs con Pydantic + instructor
+- [ ] Tutorial modelos multimodales (visión, análisis de imágenes con Claude)
+- [ ] Tutorial agentes con CrewAI (multi-agente declarativo)
+- [ ] Notebook MCP (`notebooks/llms/10-mcp.ipynb`)
+
+---
+
 ## Mejoras futuras ✅
 
 - [x] Añadir CI/CD para validar notebooks (`.github/workflows/validate-notebooks.yml`)

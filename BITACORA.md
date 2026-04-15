@@ -4,6 +4,34 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-15 (v0.5.0)
+
+### Extensión: LangGraph, Ollama y MCP
+
+**Motivación:** el proyecto cubría bien la teoría de agentes (07-tipos-agentes.md) pero carecía de implementaciones con frameworks modernos y del caso de uso de modelos locales, cada vez más relevante para privacidad y coste.
+
+**LangGraph (tutorial 08):**
+- Decisión: cubrir LangGraph como el estándar de facto para agentes stateful, por encima del patrón bucle-while ya presente en el tutorial 04.
+- Se prioriza explicar el "por qué" (grafos vs cadenas) antes del "cómo", porque el salto conceptual es significativo.
+- `ToolNode` + `tools_condition` como patrón canónico del ciclo ReAct en LangGraph.
+- `MemorySaver` para demos; se menciona `SqliteSaver` para persistencia real, evitando dependencias externas en el notebook.
+- Se incluye el patrón Supervisor + subagentes como implementación práctica de la teoría de multi-agente del tutorial 07.
+
+**Modelos locales con Ollama (tutorial 09):**
+- Decisión: dedicar una sección completa a las ventajas de los modelos locales porque es un tema que va más allá de la técnica: privacidad, coste, reproducibilidad, soberanía de datos.
+- Se estructura la sección 2 con cada ventaja desarrollada en profundidad, con ejemplos de código y cifras concretas.
+- API compatible con OpenAI de Ollama: destacada porque permite migrar código existente con 2 líneas de cambio.
+- RAG 100% local como caso de uso estrella: demuestra que toda una pipeline de IA puede funcionar sin internet ni costes.
+- Tabla de hardware/modelos: añadida como referencia práctica que faltaba en el proyecto.
+
+**MCP — Model Context Protocol (tutorial 10):**
+- Decisión: cubrir MCP porque es la capa de integración emergente más importante del ecosistema Anthropic y cada vez más adoptada.
+- Se explica la diferencia conceptual entre MCP y tool use directo, para que el lector sepa cuándo usar cada opción.
+- Se documenta el flujo con NotebookLM: no hay integración directa (NotebookLM es producto cerrado), pero se describe el flujo complementario real.
+- Seguridad tratada como sección propia: mínimo privilegio, validación de inputs, no exponer credenciales en config files.
+
+---
+
 ## 2026-04-14 (v0.4.0)
 
 ### CI/CD y GitHub Pages
