@@ -89,6 +89,13 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 
 ---
 
+## Bloque 1 — Extensiones técnicas (Fundamentos) ✅
+
+- [x] Tutorial Arquitectura Transformer en profundidad: Q/K/V, Multi-Head, positional encoding, scaling laws (`tutoriales/fundamentos/04-arquitectura-transformers.md`)
+- [x] Tutorial Algoritmos fundamentales: gradient descent, backprop, activaciones, CNN, RNN, RLHF, embeddings (`tutoriales/fundamentos/05-algoritmos-fundamentales.md`)
+
+---
+
 ## Próximas extensiones planificadas
 
 - [ ] Tutorial evaluación de agentes (LLM-as-judge, benchmarks, LangSmith)

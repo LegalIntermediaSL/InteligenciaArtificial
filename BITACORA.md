@@ -4,6 +4,27 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-15 (v0.6.0)
+
+### Extensión: Transformer y Algoritmos fundamentales
+
+**Motivación:** la sección de fundamentos cubría la historia y tipología de la IA pero no explicaba los mecanismos internos. Para que el lector entienda por qué los LLMs funcionan como funcionan, necesitaba una base técnica accesible.
+
+**Decisiones de diseño en Tutorial 04 (Transformer):**
+- Empezar desde el problema (RNN secuenciales) antes de presentar la solución (Transformer). El "por qué" antes del "qué".
+- Incluir el ejemplo numérico del scaled dot-product attention con vectores 2D: es la parte que más cuesta intuir, y con números concretos se entiende de golpe.
+- Dedicar una sección a "qué aprende cada cabeza" de Multi-Head Attention: los estudios de interpretabilidad dan vida al mecanismo.
+- Incluir scaling laws y Chinchilla porque son fundamentos del por qué los modelos actuales se diseñan como se diseñan (más datos vs más parámetros).
+- No incluir código: el tutorial es de fundamentos, complementa pero no duplica los notebooks de LLMs.
+
+**Decisiones de diseño en Tutorial 05 (Algoritmos):**
+- Cubrir desde las bases absolutas (qué problema resuelve el ML) hasta los algoritmos modernos (DPO, AdamW), en un solo tutorial.
+- Mantener la notación matemática pero siempre acompañada de intuición en prosa y pseudocódigo o ejemplos numéricos.
+- Incluir CNN y RNN/LSTM aunque los LLMs no los usen directamente: son parte del mapa conceptual y ayudan a entender la evolución histórica.
+- El mapa conceptual al final (sección 13) es la síntesis de todo el bloque de fundamentos: relaciona todos los conceptos en una sola vista.
+
+---
+
 ## 2026-04-15 (v0.5.0)
 
 ### Extensión: LangGraph, Ollama y MCP

@@ -11,6 +11,14 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.6.0] — 2026-04-15
+
+### Añadido
+- **Tutorial 04 — Arquitectura Transformer en profundidad** (`tutoriales/fundamentos/04-arquitectura-transformers.md`): RNN vs Transformer, embeddings + positional encoding (sinusoidal, RoPE, ALiBi), atención Q/K/V con ejemplo numérico paso a paso, scaled dot-product attention, Multi-Head Attention y qué aprende cada cabeza, Feed-Forward Network, conexiones residuales + LayerNorm, encoder vs decoder vs encoder-decoder, causal masking, preentrenamiento SFT y RLHF, scaling laws, Chinchilla, variantes modernas (GQA, Flash Attention, SwiGLU, MoE)
+- **Tutorial 05 — Algoritmos fundamentales de la IA** (`tutoriales/fundamentos/05-algoritmos-fundamentales.md`): el paradigma del ML, funciones de pérdida (MSE, cross-entropy, perplejidad), descenso de gradiente (batch/SGD/mini-batch), retropropagación con regla de la cadena, funciones de activación (sigmoide, ReLU, GeLU, SwiGLU), regularización (dropout, weight decay, early stopping), optimizadores (SGD+momentum, Adam, AdamW), CNN (convolución, pooling, ResNet), RNN/LSTM y sus limitaciones, atención como evolución de seq2seq a Transformer, RLHF y DPO, embeddings y Word2Vec
+
+---
+
 ## [0.5.0] — 2026-04-15
 
 ### Añadido
