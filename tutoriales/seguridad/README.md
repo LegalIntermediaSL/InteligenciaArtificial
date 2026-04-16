@@ -41,6 +41,7 @@ python -m spacy download es_core_news_md
 | 02 | [Jailbreaking y Guardrails](./02-jailbreaking-guardrails.md) | Técnicas de evasión y sistemas de moderación | 60 min |
 | 03 | [Datos Sensibles y PII](./03-datos-sensibles-pii.md) | Detección y anonimización de información personal | 60 min |
 | 04 | [Auditoría y Trazabilidad](./04-auditoria-seguridad.md) | Logging seguro, anomalías y dashboards | 60 min |
+| 05 | [Red Teaming y Evaluación Adversarial](./05-red-teaming.md) | Metodología de red teaming, automatización con LLMs | 55 min |
 
 ---
 

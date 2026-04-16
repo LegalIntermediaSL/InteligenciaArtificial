@@ -167,3 +167,56 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] Notebooks bloque 7 — `produccion/01-evaluacion-llms.ipynb`, `02-observabilidad.ipynb`, `03-optimizacion-costos.ipynb`
 - [x] Notebooks bloque 8 — `multimodalidad/01-vision-llms.ipynb`, `02-generacion-imagenes.ipynb`, `03-voz-ia.ipynb`
 - [x] Notebooks bloque 9 — `agentes-avanzados/01-multi-agente.ipynb`, `02-mcp.ipynb`, `04-memoria-largo-plazo.ipynb`
+
+---
+
+## Ampliaciones — LLMs, APIs, Agentes, Seguridad ✅
+
+- [x] `tutoriales/llms/10-gestion-contexto.md` — Context window, compresión, sliding window, prompt caching
+- [x] `tutoriales/llms/11-tokenizacion.md` — BPE, WordPiece, SentencePiece, costos por idioma
+- [x] `tutoriales/llms/12-function-calling-avanzado.md` — Tool use, parallel tools, Pydantic, patrones agénticos
+- [x] `tutoriales/apis/04-google-gemini.md` — Familia Gemini, contexto 1M, multimodalidad, Vertex AI
+- [x] `tutoriales/apis/05-mistral-cohere.md` — Mistral (open weights), Cohere (embeddings, reranking)
+- [x] `tutoriales/agentes-avanzados/05-autogen.md` — Microsoft AutoGen, GroupChat, orquestación multi-agente
+- [x] `tutoriales/agentes-avanzados/06-a2a-protocol.md` — A2A Protocol (Google 2025), servidor/cliente FastAPI
+- [x] `tutoriales/seguridad/05-red-teaming.md` — Red teaming manual y automatizado, evaluación adversarial
+
+---
+
+## Bloque 14 — Fine-tuning avanzado ✅
+
+- [x] `tutoriales/finetuning-avanzado/README.md`
+- [x] `01-dpo-rlhf.md` — DPO, RLHF, TRL DPOTrainer, dataset de preferencias
+- [x] `02-instruction-tuning.md` — SFTTrainer, formatos Alpaca/ShareGPT/ChatML, chat templates
+- [x] `03-evaluacion-modelos-finetuneados.md` — ROUGE, BLEU, LLM-as-judge, lm-eval, W&B
+- [x] `04-despliegue-modelos-propios.md` — vLLM, TGI, AWQ/GPTQ, FastAPI, Docker, benchmarks
+
+---
+
+## Bloque 15 — IA responsable ✅
+
+- [x] `tutoriales/ia-responsable/README.md`
+- [x] `01-sesgos-fairness.md` — Tipos de sesgo, fairlearn, aif360, mitigación, visualización
+- [x] `02-interpretabilidad.md` — SHAP, LIME, attention visualization, saliency maps
+- [x] `03-model-cards-datasheets.md` — Model cards (Mitchell), datasheets (Gebru), model-card-toolkit, HF Hub
+- [x] `04-cumplimiento-gdpr.md` — GDPR Art. 22, EU AI Act, minimización, anonimización, machine unlearning
+
+---
+
+## Bloque 16 — MLOps ✅
+
+- [x] `tutoriales/mlops/README.md`
+- [x] `01-registro-modelos.md` — MLflow, Model Registry, W&B Artifacts, HuggingFace Hub
+- [x] `02-ab-testing-llms.md` — Shadow deployment, router A/B, significancia estadística, canary
+- [x] `03-deteccion-drift.md` — PSI, KS test, Evidently, alertas Slack/email, dashboard Streamlit
+- [x] `04-pipelines-automatizados.md` — Prefect, pipeline completo, triggers, Docker, MLflow integrado
+
+---
+
+## Bloque 17 — Automatización con IA ✅
+
+- [x] `tutoriales/automatizacion/README.md`
+- [x] `01-n8n-ia.md` — n8n Docker, AI Agent node, casos prácticos, self-hosted vs cloud
+- [x] `02-make-zapier-ia.md` — Make.com escenarios, Zapier zaps, casos prácticos, guía de decisión
+- [x] `03-pipelines-negocio.md` — LangChain LCEL, Batch API, Celery/Redis, pipeline de contratos
+- [x] `04-integracion-herramientas-negocio.md` — HubSpot, Google Workspace, Microsoft 365, Slack bot, Notion

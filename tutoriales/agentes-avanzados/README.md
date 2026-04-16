@@ -55,4 +55,20 @@ Resuelve el problema fundamental de la falta de memoria persistente en los LLMs.
 
 ---
 
-**Siguiente bloque:** [Bloque 10 — IA en Producción](../produccion/README.md)
+### [05 — AutoGen: Conversaciones Multi-Agente](./05-autogen.md)
+
+Framework de Microsoft Research para construir sistemas donde múltiples agentes LLM colaboran mediante conversaciones estructuradas. Cubre el patrón asistente-proxy, GroupChat con múltiples roles y orquestación avanzada.
+
+**Lo que aprenderás:** AssistantAgent, UserProxyAgent, GroupChat, patrones de orquestación (secuencial, debate, consenso) y herramientas integradas.
+
+---
+
+### [06 — A2A Protocol: Agent-to-Agent](./06-a2a-protocol.md)
+
+Protocolo abierto propuesto por Google en 2025 para la comunicación estandarizada entre agentes de IA de diferentes sistemas. Implementa un servidor y cliente A2A con FastAPI y orquestación multi-agente.
+
+**Lo que aprenderás:** Agent Card, Task lifecycle, servidor A2A con streaming SSE, cliente A2A y patrones de orquestación multi-proveedor.
+
+---
+
+**Siguiente bloque:** [Bloque 10 — Casos de uso avanzados](../casos-de-uso-avanzados/README.md)

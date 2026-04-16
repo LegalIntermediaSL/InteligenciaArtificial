@@ -73,11 +73,16 @@ nav:
     - '07 · Tipos de Agentes': tutoriales/llms/07-tipos-agentes.md
     - '08 · DSPy': tutoriales/llms/08-dspy.md
     - '09 · LangGraph': tutoriales/llms/09-langgraph.md
+    - '10 · Gestión del contexto': tutoriales/llms/10-gestion-contexto.md
+    - '11 · Tokenización': tutoriales/llms/11-tokenizacion.md
+    - '12 · Function calling avanzado': tutoriales/llms/12-function-calling-avanzado.md
   - Bloque 3 — APIs de IA:
     - Índice: tutoriales/apis/README.md
     - '01 · API de Anthropic (Claude)': tutoriales/apis/01-api-anthropic-claude.md
     - '02 · API de OpenAI': tutoriales/apis/02-api-openai.md
     - '03 · Comparativa de proveedores': tutoriales/apis/03-comparativa-proveedores.md
+    - '04 · Google Gemini': tutoriales/apis/04-google-gemini.md
+    - '05 · Mistral y Cohere': tutoriales/apis/05-mistral-cohere.md
   - Bloque 4 — Python para IA:
     - Índice: tutoriales/python-para-ia/README.md
     - '01 · Intro Python para IA': tutoriales/python-para-ia/01-intro-python-ia.md
@@ -111,6 +116,8 @@ nav:
     - '02 · Model Context Protocol': tutoriales/agentes-avanzados/02-model-context-protocol.md
     - '03 · Computer Use': tutoriales/agentes-avanzados/03-computer-use.md
     - '04 · Memoria a largo plazo': tutoriales/agentes-avanzados/04-memoria-largo-plazo.md
+    - '05 · AutoGen': tutoriales/agentes-avanzados/05-autogen.md
+    - '06 · A2A Protocol': tutoriales/agentes-avanzados/06-a2a-protocol.md
   - Bloque 10 — Casos de uso avanzados:
     - Índice: tutoriales/casos-de-uso-avanzados/README.md
     - '01 · Generación y revisión de código': tutoriales/casos-de-uso-avanzados/01-generacion-revision-codigo.md
@@ -129,12 +136,37 @@ nav:
     - '02 · Jailbreaking y guardrails': tutoriales/seguridad/02-jailbreaking-guardrails.md
     - '03 · Datos sensibles y PII': tutoriales/seguridad/03-datos-sensibles-pii.md
     - '04 · Auditoría y trazabilidad': tutoriales/seguridad/04-auditoria-seguridad.md
+    - '05 · Red teaming': tutoriales/seguridad/05-red-teaming.md
   - Bloque 13 — Bases de datos vectoriales:
     - Índice: tutoriales/bases-de-datos-vectoriales/README.md
     - '01 · pgvector': tutoriales/bases-de-datos-vectoriales/01-pgvector.md
     - '02 · Pinecone y Weaviate': tutoriales/bases-de-datos-vectoriales/02-pinecone-weaviate.md
     - '03 · Reranking': tutoriales/bases-de-datos-vectoriales/03-reranking.md
     - '04 · RAG avanzado': tutoriales/bases-de-datos-vectoriales/04-rag-avanzado.md
+  - Bloque 14 — Fine-tuning avanzado:
+    - Índice: tutoriales/finetuning-avanzado/README.md
+    - '01 · DPO y RLHF': tutoriales/finetuning-avanzado/01-dpo-rlhf.md
+    - '02 · Instruction tuning': tutoriales/finetuning-avanzado/02-instruction-tuning.md
+    - '03 · Evaluación de modelos': tutoriales/finetuning-avanzado/03-evaluacion-modelos-finetuneados.md
+    - '04 · Despliegue con vLLM y TGI': tutoriales/finetuning-avanzado/04-despliegue-modelos-propios.md
+  - Bloque 15 — IA responsable:
+    - Índice: tutoriales/ia-responsable/README.md
+    - '01 · Sesgos y fairness': tutoriales/ia-responsable/01-sesgos-fairness.md
+    - '02 · Interpretabilidad': tutoriales/ia-responsable/02-interpretabilidad.md
+    - '03 · Model cards': tutoriales/ia-responsable/03-model-cards-datasheets.md
+    - '04 · GDPR y EU AI Act': tutoriales/ia-responsable/04-cumplimiento-gdpr.md
+  - Bloque 16 — MLOps:
+    - Índice: tutoriales/mlops/README.md
+    - '01 · Registro de modelos': tutoriales/mlops/01-registro-modelos.md
+    - '02 · A/B testing de LLMs': tutoriales/mlops/02-ab-testing-llms.md
+    - '03 · Detección de drift': tutoriales/mlops/03-deteccion-drift.md
+    - '04 · Pipelines automatizados': tutoriales/mlops/04-pipelines-automatizados.md
+  - Bloque 17 — Automatización con IA:
+    - Índice: tutoriales/automatizacion/README.md
+    - '01 · n8n con IA': tutoriales/automatizacion/01-n8n-ia.md
+    - '02 · Make y Zapier': tutoriales/automatizacion/02-make-zapier-ia.md
+    - '03 · Pipelines de negocio': tutoriales/automatizacion/03-pipelines-negocio.md
+    - '04 · Herramientas de negocio': tutoriales/automatizacion/04-integracion-herramientas-negocio.md
   - Notebooks: tutoriales/notebooks/README.md
   - Hoja de ruta: TODO.md
   - Bitácora: BITACORA.md

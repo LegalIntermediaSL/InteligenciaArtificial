@@ -20,9 +20,13 @@ Introducción a los modelos de lenguaje de gran escala (Large Language Models): 
 
 Ninguno para los tutoriales teóricos. Los ejemplos de código requieren Python 3.10+ y las librerías indicadas en cada sección.
 
+| 10 | [Gestión del contexto](./10-gestion-contexto.md) | Context window, compresión, sliding window, prompt caching |
+| 11 | [Tokenización en profundidad](./11-tokenizacion.md) | BPE, WordPiece, SentencePiece, costos por idioma y tipo de contenido |
+| 12 | [Function calling avanzado](./12-function-calling-avanzado.md) | Tool use, parallel tools, Pydantic, patrones para agentes |
+
 ## Orden recomendado
 
-01 → 02 → 03 → 04 → 07 → 05 → 06 → 08 → 09
+01 → 02 → 03 → 04 → 07 → 05 → 06 → 08 → 09 → 11 → 10 → 12
 
 ---
 
