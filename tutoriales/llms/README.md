@@ -13,6 +13,8 @@ Introducción a los modelos de lenguaje de gran escala (Large Language Models): 
 | 05 | [RAG completo con ChromaDB](./05-rag-chromadb.md) | Ingesta, búsqueda semántica, generación y evaluación |
 | 06 | [Fine-tuning con LoRA](./06-finetuning-lora.md) | QLoRA local, datasets, entrenamiento y despliegue |
 | 07 | [Tipos y Arquitecturas de Agentes](./07-tipos-agentes.md) | Reactivo, BDI, jerárquico, Swarm, memoria, planificación, frameworks |
+| 08 | [DSPy](./08-dspy.md) | Programación declarativa de LLMs: Signatures, módulos, optimizadores, RAG con DSPy |
+| 09 | [LangGraph](./09-langgraph.md) | StateGraph, nodos condicionales, MemorySaver, human-in-the-loop |
 
 ## Requisitos
 
@@ -20,7 +22,7 @@ Ninguno para los tutoriales teóricos. Los ejemplos de código requieren Python 
 
 ## Orden recomendado
 
-01 → 02 → 03 → 04 → 07 → 05 → 06
+01 → 02 → 03 → 04 → 07 → 05 → 06 → 08 → 09
 
 ---
 
