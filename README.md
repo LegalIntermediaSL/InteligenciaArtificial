@@ -16,11 +16,19 @@ El proyecto nace con la vocación de ser una guía progresiva: desde los concept
 
 | Bloque | Descripción |
 |---|---|
-| **Fundamentos** | Conceptos clave de IA, ML y DL explicados de forma clara |
-| **LLMs** | Cómo funcionan los modelos de lenguaje, prompt engineering, RAG, fine-tuning |
-| **APIs de IA** | Integración con Anthropic (Claude), OpenAI y otros proveedores |
-| **Python para IA** | Librerías esenciales, notebooks y pipelines de datos |
-| **Casos de uso** | Proyectos prácticos aplicados: chatbots, clasificación, resumen, extracción |
+| **1 — Fundamentos** | Conceptos clave de IA, ML y DL explicados de forma clara |
+| **2 — LLMs** | Cómo funcionan los modelos de lenguaje, prompt engineering, RAG, fine-tuning, DSPy, LangGraph |
+| **3 — APIs de IA** | Integración con Anthropic (Claude), OpenAI y comparativa de proveedores |
+| **4 — Python para IA** | Librerías esenciales, notebooks y pipelines de datos |
+| **5 — Casos de uso** | Proyectos prácticos: chatbots, clasificación, resumen, extracción de PDFs |
+| **6 — JavaScript** | LangChain.js, Vercel AI SDK, chatbot en producción con Next.js |
+| **7 — Producción y evaluación** | LLM-as-judge, observabilidad con Langfuse, optimización de costos, despliegue con Docker |
+| **8 — Multimodalidad** | Visión con LLMs, generación de imágenes (DALL-E, Stable Diffusion), voz e IA |
+| **9 — Agentes avanzados** | Multi-agente, Model Context Protocol, Computer Use, memoria a largo plazo |
+| **10 — Casos de uso avanzados** | Revisión de código, búsqueda semántica, structured output con Instructor, análisis de datos |
+| **11 — IA local** | Ollama, Transformers locales, Transformers.js en el navegador, comparativa local vs cloud |
+| **12 — Seguridad en IA** | Prompt injection, jailbreaking y guardrails, PII, auditoría y trazabilidad |
+| **13 — Bases de datos vectoriales** | pgvector, Pinecone, Weaviate, reranking, RAG avanzado |
 
 ---
 
@@ -29,36 +37,49 @@ El proyecto nace con la vocación de ser una guía progresiva: desde los concept
 ```
 InteligenciaArtificial/
 ├── tutoriales/
-│   ├── fundamentos/          # Conceptos base de IA
-│   ├── llms/                 # Modelos de lenguaje (LLMs)
-│   ├── apis/                 # Uso de APIs de IA (Claude, OpenAI, etc.)
-│   ├── python-para-ia/       # Python aplicado a IA
-│   └── casos-de-uso/         # Proyectos y ejemplos prácticos
-├── README.md                 # Este archivo
-├── CHANGELOG.md              # Historial de cambios del proyecto
-├── BITACORA.md               # Diario de decisiones y aprendizajes
-└── TODO.md                   # Tareas y hoja de ruta pendiente
+│   ├── fundamentos/                  # Bloque 1 — Conceptos base
+│   ├── llms/                         # Bloque 2 — Modelos de lenguaje
+│   ├── apis/                         # Bloque 3 — APIs de IA
+│   ├── python-para-ia/               # Bloque 4 — Python aplicado a IA
+│   ├── casos-de-uso/                 # Bloque 5 — Proyectos prácticos básicos
+│   ├── produccion/                   # Bloque 7 — Producción y evaluación
+│   ├── multimodalidad/               # Bloque 8 — Visión, imágenes, voz
+│   ├── agentes-avanzados/            # Bloque 9 — Multi-agente, MCP, Computer Use
+│   ├── casos-de-uso-avanzados/       # Bloque 10 — Casos de uso avanzados
+│   ├── ia-local/                     # Bloque 11 — Modelos sin APIs externas
+│   ├── seguridad/                    # Bloque 12 — Seguridad defensiva
+│   ├── bases-de-datos-vectoriales/   # Bloque 13 — Vector DBs y RAG avanzado
+│   └── notebooks/                    # Notebooks Jupyter interactivos (todos los bloques)
+├── javascript/                       # Bloque 6 — Ejemplos JS/TS
+├── README.md                         # Este archivo
+├── CHANGELOG.md                      # Historial de cambios
+├── BITACORA.md                       # Diario de decisiones y aprendizajes
+└── TODO.md                           # Hoja de ruta
 ```
 
 Cada carpeta dentro de `tutoriales/` incluye su propio `README.md` con descripción, requisitos y orden de lectura recomendado.
 
 ---
 
-## Hoja de ruta
+## Orden de lectura recomendado
 
-### En desarrollo
-- [ ] Fundamentos de IA: conceptos clave y tipos de sistemas
-- [ ] ¿Qué es un LLM? Cómo funcionan los modelos de lenguaje
-- [ ] Primeros pasos con la API de Anthropic (Claude)
+```
+Bloque 1 (Fundamentos)
+  └─► Bloque 2 (LLMs)
+        └─► Bloque 3 (APIs de IA)
+              └─► Bloque 4 (Python para IA)
+                    └─► Bloque 5 (Casos de uso)
+                          ├─► Bloque 6 (JavaScript)
+                          ├─► Bloque 7 (Producción)
+                          ├─► Bloque 8 (Multimodalidad)
+                          ├─► Bloque 9 (Agentes avanzados)
+                          ├─► Bloque 10 (Casos avanzados)
+                          ├─► Bloque 11 (IA local)
+                          ├─► Bloque 12 (Seguridad)
+                          └─► Bloque 13 (Vector DBs)
+```
 
-### Planificado
-- [ ] Prompt engineering: técnicas y buenas prácticas
-- [ ] Fine-tuning vs RAG: cuándo usar cada uno
-- [ ] Chatbot con Claude API (proyecto completo)
-- [ ] Extracción de información de PDFs con IA
-- [ ] Introducción a Python para IA
-
-> Consulta [TODO.md](./TODO.md) para el detalle completo de tareas pendientes.
+Los bloques del 7 al 13 son independientes entre sí y pueden leerse en cualquier orden una vez completados los 5 primeros.
 
 ---
 
@@ -67,8 +88,9 @@ Cada carpeta dentro de `tutoriales/` incluye su propio `README.md` con descripci
 Cada tutorial especifica sus propias dependencias, pero en general el proyecto trabaja con:
 
 - **Python** 3.10 o superior
-- **Jupyter Notebooks** (recomendado: JupyterLab o VS Code con extensión)
-- **Librerías** indicadas en el `requirements.txt` de cada carpeta
+- **Jupyter Notebooks** (recomendado: JupyterLab o VS Code con extensión Jupyter)
+- **Node.js** 18+ (para los tutoriales de JavaScript)
+- **Variables de entorno**: `ANTHROPIC_API_KEY`, `OPENAI_API_KEY` según el tutorial
 
 ### Instalación rápida
 
@@ -82,9 +104,26 @@ python -m venv .venv
 source .venv/bin/activate      # Linux/macOS
 .venv\Scripts\activate         # Windows
 
-# Instalar dependencias de un tutorial concreto
+# Instalar dependencias de un bloque concreto
 pip install -r tutoriales/apis/requirements.txt
+
+# Fichero .env en la raíz (o en cada carpeta)
+ANTHROPIC_API_KEY=sk-ant-...
+OPENAI_API_KEY=sk-...
 ```
+
+---
+
+## Notebooks interactivos
+
+Todos los bloques incluyen cuadernos Jupyter que permiten ejecutar el código directamente:
+
+```bash
+pip install jupyterlab
+jupyter lab
+```
+
+También puedes abrirlos en **VS Code** (extensión Jupyter de Microsoft) o en **Google Colab** subiéndolos directamente.
 
 ---
 
@@ -106,6 +145,9 @@ Este repositorio es de uso interno y aprendizaje, pero las sugerencias son bienv
 - [fast.ai — Practical Deep Learning](https://course.fast.ai)
 - [Hugging Face Learn](https://huggingface.co/learn)
 - [Papers With Code](https://paperswithcode.com)
+- [LangChain Docs](https://python.langchain.com)
+- [DSPy Documentation](https://dspy.ai)
+- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
 
 ---
 

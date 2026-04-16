@@ -4,6 +4,31 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-16 (v0.6.0)
+
+### Bloques 10–13, mejoras transversales y notebooks
+
+- Se añade el **Bloque 10 — Casos de uso avanzados** (`tutoriales/casos-de-uso-avanzados/`): revisión de código con rúbrica JSON y AST, búsqueda semántica con embeddings sin dependencia de vector DB, structured output con la librería `instructor`, agente analista de DataFrames con tool_use y generación de gráficas.
+
+- Se añade el **Bloque 11 — IA local** (`tutoriales/ia-local/`): Ollama con API REST compatible OpenAI y soporte visión (LLaVA), Transformers con quantización 4-bit (bitsandbytes), Transformers.js en navegador con Web Workers, y análisis de coste/privacidad para decidir entre local y cloud. Decisión: incluir el tutorial de Transformers.js porque cierra el gap de IA sin backend, caso de uso clave para aplicaciones con datos sensibles.
+
+- Se añade el **Bloque 12 — Seguridad** (`tutoriales/seguridad/`): enfoque exclusivamente defensivo. Se documenta prompt injection directa e indirecta, guardrails de entrada y salida, detección y anonimización de PII con Microsoft Presidio, y sistema completo de auditoría con threading. Decisión: no incluir técnicas ofensivas completas, solo ejemplos mínimos para entender qué hay que defenderse.
+
+- Se añade el **Bloque 13 — Bases de datos vectoriales** (`tutoriales/bases-de-datos-vectoriales/`): pgvector con PostgreSQL (sin infraestructura nueva para quien ya usa Postgres), Pinecone y Weaviate con búsqueda híbrida BM25+vectorial, reranking con Cross-Encoders y Cohere, y técnicas avanzadas de RAG (HyDE, Parent-Child, Self-Query). Decisión: pgvector primero porque es la opción más accesible para proyectos que ya tienen PostgreSQL.
+
+- **Mejoras transversales**:
+  - `javascript/03-nextjs-ia.md`: chatbot de producción con Next.js 15 App Router, Vercel AI SDK v4, streaming SSE, rate limiting con Upstash Redis. Se elige Upstash por ser serverless-friendly (compatible con Vercel Edge).
+  - `tutoriales/llms/08-dspy.md`: DSPy como alternativa a prompt engineering manual; se incluye compilación con BootstrapFewShot que muestra la diferencia de precisión real.
+  - `tutoriales/llms/09-langgraph.md`: LangGraph para flujos con estado, aristas condicionales y human-in-the-loop; se incluye `MemorySaver` para persistencia y nota sobre `SqliteSaver` para producción.
+
+- **9 notebooks nuevos** para los bloques 7, 8 y 9 en `tutoriales/notebooks/produccion/`, `tutoriales/notebooks/multimodalidad/` y `tutoriales/notebooks/agentes-avanzados/`. Todos usan `claude-haiku-4-5-20251001` para minimizar el coste durante la práctica.
+
+- Se actualiza `README.md` con árbol de directorios completo, tabla de los 13 bloques y diagrama de orden de lectura recomendado.
+
+- Se actualiza `mkdocs.yml` con navegación completa de todos los bloques y artículos nuevos.
+
+---
+
 ## 2026-04-15 (v0.5.0)
 
 ### Bloques 7, 8 y 9 — Producción, Multimodalidad y Agentes avanzados

@@ -116,3 +116,54 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] `02-model-context-protocol.md` — Servidor MCP, herramientas, recursos, Claude Desktop
 - [x] `03-computer-use.md` — Bucle de control, automatización de formularios, scraping visual
 - [x] `04-memoria-largo-plazo.md` — Memoria episódica JSON, semántica ChromaDB, compresión
+
+---
+
+## Bloque 10 — Casos de uso avanzados ✅
+
+- [x] `tutoriales/casos-de-uso-avanzados/README.md`
+- [x] `01-generacion-revision-codigo.md` — Revisor con rúbrica JSON, generador de tests, documentador AST
+- [x] `02-busqueda-semantica.md` — Embeddings, índice local, chatbot RAG, buscador Streamlit
+- [x] `03-structured-output-instructor.md` — Instructor + Pydantic, validadores, modelos anidados
+- [x] `04-analisis-datos-ia.md` — Agente analista, tool_use, gráficas, detección de anomalías
+
+---
+
+## Bloque 11 — IA local ✅
+
+- [x] `tutoriales/ia-local/README.md`
+- [x] `01-ollama.md` — CLI, API REST, SDK nativo, visión local, RAG local
+- [x] `02-transformers-local.md` — Pipeline, quantización 4-bit, embeddings locales
+- [x] `03-transformers-js-navegador.md` — Node.js, navegador, Web Workers, buscador offline
+- [x] `04-comparativa-local-cloud.md` — Costes, privacidad, router híbrido
+
+---
+
+## Bloque 12 — Seguridad en IA ✅
+
+- [x] `tutoriales/seguridad/README.md`
+- [x] `01-prompt-injection.md` — Ataques directos/indirectos, detector, GuardrailsManager
+- [x] `02-jailbreaking-guardrails.md` — Guardrails entrada/salida, moderación, middleware FastAPI
+- [x] `03-datos-sensibles-pii.md` — Presidio, anonimización, logger seguro
+- [x] `04-auditoria-seguridad.md` — AuditLogger, detección anomalías, dashboard, Monitor
+
+---
+
+## Bloque 13 — Bases de datos vectoriales ✅
+
+- [x] `tutoriales/bases-de-datos-vectoriales/README.md`
+- [x] `01-pgvector.md` — PostgreSQL, psycopg2, búsqueda coseno, HNSW, RAG completo
+- [x] `02-pinecone-weaviate.md` — Pinecone, Weaviate, búsqueda híbrida, comparativa
+- [x] `03-reranking.md` — Cross-Encoders, Cohere Rerank, NDCG/MRR, pipeline con reranking
+- [x] `04-rag-avanzado.md` — HyDE, Parent-Child, Self-Query, multi-documento, ragas
+
+---
+
+## Mejoras transversales ✅
+
+- [x] `javascript/03-nextjs-ia.md` — Next.js 15, App Router, streaming, Tailwind, rate limiting
+- [x] `tutoriales/llms/08-dspy.md` — Signatures, módulos, BootstrapFewShot, RAG con DSPy
+- [x] `tutoriales/llms/09-langgraph.md` — StateGraph, condicionales, MemorySaver, human-in-the-loop
+- [x] Notebooks bloque 7 — `produccion/01-evaluacion-llms.ipynb`, `02-observabilidad.ipynb`, `03-optimizacion-costos.ipynb`
+- [x] Notebooks bloque 8 — `multimodalidad/01-vision-llms.ipynb`, `02-generacion-imagenes.ipynb`, `03-voz-ia.ipynb`
+- [x] Notebooks bloque 9 — `agentes-avanzados/01-multi-agente.ipynb`, `02-mcp.ipynb`, `04-memoria-largo-plazo.ipynb`

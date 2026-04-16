@@ -11,6 +11,50 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.6.0] — 2026-04-16
+
+### Añadido
+- **Bloque 10 — Casos de uso avanzados** (`tutoriales/casos-de-uso-avanzados/`):
+  - `01-generacion-revision-codigo.md` — revisor de código con rúbrica JSON, generador de tests con pytest, documentador automático con AST
+  - `02-busqueda-semantica.md` — embeddings, índice local sin ChromaDB, chatbot con RAG sobre ficheros propios, buscador con Streamlit
+  - `03-structured-output-instructor.md` — extracción robusta con Instructor y Pydantic, validadores personalizados, modelos anidados
+  - `04-analisis-datos-ia.md` — agente analista de DataFrames con tool_use, generación de gráficas con `exec()`, detección de anomalías
+- **Bloque 11 — IA local** (`tutoriales/ia-local/`):
+  - `01-ollama.md` — instalación, CLI, API REST compatible con OpenAI, SDK nativo, modelos recomendados, visión y RAG local
+  - `02-transformers-local.md` — pipeline de inferencia, quantización 4-bit con bitsandbytes, embeddings con sentence-transformers
+  - `03-transformers-js-navegador.md` — Transformers.js en Node.js y navegador, Web Workers, buscador semántico offline
+  - `04-comparativa-local-cloud.md` — análisis de costes, privacidad y compliance, arquitectura híbrida con router
+- **Bloque 12 — Seguridad en IA** (`tutoriales/seguridad/`):
+  - `01-prompt-injection.md` — ataques directos e indirectos, detector con Claude, clase GuardrailsManager
+  - `02-jailbreaking-guardrails.md` — guardrails de entrada y salida, moderación con OpenAI y Claude, middleware FastAPI
+  - `03-datos-sensibles-pii.md` — Presidio de Microsoft, anonimización antes de API, logger seguro sin PII
+  - `04-auditoria-seguridad.md` — AuditLogger con redacción PII, detección de anomalías con pandas, dashboard, Monitor con threading
+- **Bloque 13 — Bases de datos vectoriales** (`tutoriales/bases-de-datos-vectoriales/`):
+  - `01-pgvector.md` — extensión PostgreSQL, inserción con psycopg2, búsqueda coseno, índice HNSW, pipeline RAG completo
+  - `02-pinecone-weaviate.md` — Pinecone (upsert, filtros por metadata), Weaviate (esquema, búsqueda híbrida BM25+vectorial), comparativa
+  - `03-reranking.md` — Cross-Encoders con sentence-transformers, Cohere Rerank multilingüe, métricas NDCG/MRR, pipeline con reranking
+  - `04-rag-avanzado.md` — HyDE, Parent-Child chunks, Self-Query Retriever, RAG multi-documento, evaluación con ragas
+- **Mejoras transversales**:
+  - `javascript/03-nextjs-ia.md` — chatbot de producción con Next.js 15, App Router, streaming SSE, Tailwind, rate limiting con Upstash
+  - `tutoriales/llms/08-dspy.md` — Signatures, módulos (Predict, ChainOfThought, ReAct), compilación con BootstrapFewShot, RAG con DSPy
+  - `tutoriales/llms/09-langgraph.md` — StateGraph, aristas condicionales, persistencia con MemorySaver, human-in-the-loop
+- **Notebooks nuevos** (complementan los bloques 7, 8 y 9):
+  - `notebooks/produccion/` — 3 notebooks: evaluación LLMs, observabilidad, optimización de costos
+  - `notebooks/multimodalidad/` — 3 notebooks: visión, generación de imágenes, voz
+  - `notebooks/agentes-avanzados/` — 3 notebooks: multi-agente, MCP, memoria a largo plazo
+- **README.md** actualizado con todos los bloques, árbol de directorios completo y orden de lectura recomendado
+
+---
+
+## [0.5.0] — 2026-04-15
+
+### Añadido
+- **Bloque 7 — Producción y evaluación** (`tutoriales/produccion/`): evaluación de LLMs, observabilidad con Langfuse, optimización de costos (Prompt Caching, Batch API), despliegue con FastAPI y Docker
+- **Bloque 8 — Multimodalidad** (`tutoriales/multimodalidad/`): visión con LLMs, generación de imágenes con DALL-E 3 y Stable Diffusion, voz (Whisper + TTS + pipeline completo)
+- **Bloque 9 — Agentes avanzados** (`tutoriales/agentes-avanzados/`): multi-agente con CrewAI, Model Context Protocol, Computer Use, memoria a largo plazo con ChromaDB
+
+---
+
 ## [0.4.0] — 2026-04-14
 
 ### Añadido

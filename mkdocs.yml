@@ -71,6 +71,8 @@ nav:
     - '05 · RAG con ChromaDB': tutoriales/llms/05-rag-chromadb.md
     - '06 · Fine-tuning con LoRA': tutoriales/llms/06-finetuning-lora.md
     - '07 · Tipos de Agentes': tutoriales/llms/07-tipos-agentes.md
+    - '08 · DSPy': tutoriales/llms/08-dspy.md
+    - '09 · LangGraph': tutoriales/llms/09-langgraph.md
   - Bloque 3 — APIs de IA:
     - Índice: tutoriales/apis/README.md
     - '01 · API de Anthropic (Claude)': tutoriales/apis/01-api-anthropic-claude.md
@@ -91,6 +93,7 @@ nav:
     - Índice: javascript/README.md
     - '01 · LangChain.js': javascript/01-langchain-js.md
     - '02 · Vercel AI SDK': javascript/02-vercel-ai-sdk.md
+    - '03 · Next.js + IA': javascript/03-nextjs-ia.md
   - Bloque 7 — Producción y evaluación:
     - Índice: tutoriales/produccion/README.md
     - '01 · Evaluación de LLMs': tutoriales/produccion/01-evaluacion-llms.md
@@ -108,6 +111,30 @@ nav:
     - '02 · Model Context Protocol': tutoriales/agentes-avanzados/02-model-context-protocol.md
     - '03 · Computer Use': tutoriales/agentes-avanzados/03-computer-use.md
     - '04 · Memoria a largo plazo': tutoriales/agentes-avanzados/04-memoria-largo-plazo.md
+  - Bloque 10 — Casos de uso avanzados:
+    - Índice: tutoriales/casos-de-uso-avanzados/README.md
+    - '01 · Generación y revisión de código': tutoriales/casos-de-uso-avanzados/01-generacion-revision-codigo.md
+    - '02 · Búsqueda semántica': tutoriales/casos-de-uso-avanzados/02-busqueda-semantica.md
+    - '03 · Structured output con Instructor': tutoriales/casos-de-uso-avanzados/03-structured-output-instructor.md
+    - '04 · Análisis de datos con IA': tutoriales/casos-de-uso-avanzados/04-analisis-datos-ia.md
+  - Bloque 11 — IA local:
+    - Índice: tutoriales/ia-local/README.md
+    - '01 · Ollama': tutoriales/ia-local/01-ollama.md
+    - '02 · Transformers local': tutoriales/ia-local/02-transformers-local.md
+    - '03 · Transformers.js en el navegador': tutoriales/ia-local/03-transformers-js-navegador.md
+    - '04 · Local vs cloud': tutoriales/ia-local/04-comparativa-local-cloud.md
+  - Bloque 12 — Seguridad en IA:
+    - Índice: tutoriales/seguridad/README.md
+    - '01 · Prompt injection': tutoriales/seguridad/01-prompt-injection.md
+    - '02 · Jailbreaking y guardrails': tutoriales/seguridad/02-jailbreaking-guardrails.md
+    - '03 · Datos sensibles y PII': tutoriales/seguridad/03-datos-sensibles-pii.md
+    - '04 · Auditoría y trazabilidad': tutoriales/seguridad/04-auditoria-seguridad.md
+  - Bloque 13 — Bases de datos vectoriales:
+    - Índice: tutoriales/bases-de-datos-vectoriales/README.md
+    - '01 · pgvector': tutoriales/bases-de-datos-vectoriales/01-pgvector.md
+    - '02 · Pinecone y Weaviate': tutoriales/bases-de-datos-vectoriales/02-pinecone-weaviate.md
+    - '03 · Reranking': tutoriales/bases-de-datos-vectoriales/03-reranking.md
+    - '04 · RAG avanzado': tutoriales/bases-de-datos-vectoriales/04-rag-avanzado.md
   - Notebooks: tutoriales/notebooks/README.md
   - Hoja de ruta: TODO.md
   - Bitácora: BITACORA.md
