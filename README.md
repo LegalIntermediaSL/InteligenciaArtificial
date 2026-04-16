@@ -171,6 +171,12 @@ Este repositorio es de uso interno y aprendizaje, pero las sugerencias son bienv
 
 ---
 
+## Aviso legal
+
+> El contenido de este repositorio se facilita "tal cual es", puede contener errores o inexactitudes. Legal Intermedia S.L. no se responsabiliza del uso que se haga de esta información que se facilita con fines instructivos. Se han utilizado asistentes digitales para su confección. Lea [LICENSE](./LICENSE) para mayor detalle.
+
+---
+
 ## Licencia
 
 Distribuido bajo licencia **MIT** — ver [LICENSE](./LICENSE) para más detalles.
