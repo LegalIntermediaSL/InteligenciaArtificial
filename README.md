@@ -17,18 +17,22 @@ El proyecto nace con la vocación de ser una guía progresiva: desde los concept
 | Bloque | Descripción |
 |---|---|
 | **1 — Fundamentos** | Conceptos clave de IA, ML y DL explicados de forma clara |
-| **2 — LLMs** | Cómo funcionan los modelos de lenguaje, prompt engineering, RAG, fine-tuning, DSPy, LangGraph |
-| **3 — APIs de IA** | Integración con Anthropic (Claude), OpenAI y comparativa de proveedores |
+| **2 — LLMs** | Modelos de lenguaje, prompt engineering, RAG, fine-tuning, DSPy, LangGraph, tokenización, function calling |
+| **3 — APIs de IA** | Claude (Anthropic), OpenAI, Google Gemini, Mistral, Cohere — guías y comparativa |
 | **4 — Python para IA** | Librerías esenciales, notebooks y pipelines de datos |
 | **5 — Casos de uso** | Proyectos prácticos: chatbots, clasificación, resumen, extracción de PDFs |
 | **6 — JavaScript** | LangChain.js, Vercel AI SDK, chatbot en producción con Next.js |
 | **7 — Producción y evaluación** | LLM-as-judge, observabilidad con Langfuse, optimización de costos, despliegue con Docker |
 | **8 — Multimodalidad** | Visión con LLMs, generación de imágenes (DALL-E, Stable Diffusion), voz e IA |
-| **9 — Agentes avanzados** | Multi-agente, Model Context Protocol, Computer Use, memoria a largo plazo |
+| **9 — Agentes avanzados** | Multi-agente, MCP, Computer Use, memoria, AutoGen, A2A Protocol |
 | **10 — Casos de uso avanzados** | Revisión de código, búsqueda semántica, structured output con Instructor, análisis de datos |
 | **11 — IA local** | Ollama, Transformers locales, Transformers.js en el navegador, comparativa local vs cloud |
-| **12 — Seguridad en IA** | Prompt injection, jailbreaking y guardrails, PII, auditoría y trazabilidad |
+| **12 — Seguridad en IA** | Prompt injection, jailbreaking, PII, auditoría, red teaming y evaluación adversarial |
 | **13 — Bases de datos vectoriales** | pgvector, Pinecone, Weaviate, reranking, RAG avanzado |
+| **14 — Fine-tuning avanzado** | DPO, RLHF, instruction tuning, evaluación de modelos, despliegue con vLLM y TGI |
+| **15 — IA responsable** | Sesgos y fairness, interpretabilidad (SHAP, LIME), model cards, GDPR y EU AI Act |
+| **16 — MLOps** | Registro de modelos, A/B testing, detección de drift, pipelines automatizados con Prefect |
+| **17 — Automatización con IA** | n8n, Make, Zapier, pipelines de negocio, HubSpot, Slack bot, Google Workspace |
 
 ---
 
@@ -38,17 +42,21 @@ El proyecto nace con la vocación de ser una guía progresiva: desde los concept
 InteligenciaArtificial/
 ├── tutoriales/
 │   ├── fundamentos/                  # Bloque 1 — Conceptos base
-│   ├── llms/                         # Bloque 2 — Modelos de lenguaje
-│   ├── apis/                         # Bloque 3 — APIs de IA
+│   ├── llms/                         # Bloque 2 — Modelos de lenguaje (12 tutoriales)
+│   ├── apis/                         # Bloque 3 — APIs de IA (5 proveedores)
 │   ├── python-para-ia/               # Bloque 4 — Python aplicado a IA
 │   ├── casos-de-uso/                 # Bloque 5 — Proyectos prácticos básicos
 │   ├── produccion/                   # Bloque 7 — Producción y evaluación
 │   ├── multimodalidad/               # Bloque 8 — Visión, imágenes, voz
-│   ├── agentes-avanzados/            # Bloque 9 — Multi-agente, MCP, Computer Use
+│   ├── agentes-avanzados/            # Bloque 9 — Multi-agente, MCP, AutoGen, A2A
 │   ├── casos-de-uso-avanzados/       # Bloque 10 — Casos de uso avanzados
 │   ├── ia-local/                     # Bloque 11 — Modelos sin APIs externas
-│   ├── seguridad/                    # Bloque 12 — Seguridad defensiva
+│   ├── seguridad/                    # Bloque 12 — Seguridad + red teaming
 │   ├── bases-de-datos-vectoriales/   # Bloque 13 — Vector DBs y RAG avanzado
+│   ├── finetuning-avanzado/          # Bloque 14 — DPO, RLHF, vLLM, TGI
+│   ├── ia-responsable/               # Bloque 15 — Fairness, GDPR, EU AI Act
+│   ├── mlops/                        # Bloque 16 — MLOps, drift, pipelines
+│   ├── automatizacion/               # Bloque 17 — n8n, Make, Zapier, integraciones
 │   └── notebooks/                    # Notebooks Jupyter interactivos (todos los bloques)
 ├── javascript/                       # Bloque 6 — Ejemplos JS/TS
 ├── README.md                         # Este archivo
@@ -76,10 +84,14 @@ Bloque 1 (Fundamentos)
                           ├─► Bloque 10 (Casos avanzados)
                           ├─► Bloque 11 (IA local)
                           ├─► Bloque 12 (Seguridad)
-                          └─► Bloque 13 (Vector DBs)
+                          ├─► Bloque 13 (Vector DBs)
+                          ├─► Bloque 14 (Fine-tuning avanzado)
+                          ├─► Bloque 15 (IA responsable)
+                          ├─► Bloque 16 (MLOps)
+                          └─► Bloque 17 (Automatización)
 ```
 
-Los bloques del 7 al 13 son independientes entre sí y pueden leerse en cualquier orden una vez completados los 5 primeros.
+Los bloques del 7 al 17 son independientes entre sí y pueden leerse en cualquier orden una vez completados los 5 primeros.
 
 ---
 
@@ -148,6 +160,14 @@ Este repositorio es de uso interno y aprendizaje, pero las sugerencias son bienv
 - [LangChain Docs](https://python.langchain.com)
 - [DSPy Documentation](https://dspy.ai)
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
+- [Mistral AI Docs](https://docs.mistral.ai)
+- [Cohere Documentation](https://docs.cohere.com)
+- [Google Gemini API](https://ai.google.dev/docs)
+- [vLLM Documentation](https://docs.vllm.ai)
+- [Evidently AI](https://docs.evidentlyai.com)
+- [Prefect Docs](https://docs.prefect.io)
+- [AutoGen](https://microsoft.github.io/autogen/)
+- [A2A Protocol](https://github.com/google/A2A)
 
 ---
 
@@ -157,4 +177,4 @@ Distribuido bajo licencia **MIT** — ver [LICENSE](./LICENSE) para más detalle
 
 ---
 
-*Mantenido por [LegalIntermediaSL](https://github.com/LegalIntermediaSL) · Última actualización: abril 2026*
+*Mantenido por [LegalIntermediaSL](https://github.com/LegalIntermediaSL) · 17 bloques · 80+ tutoriales · Última actualización: abril 2026*
