@@ -1,10 +1,10 @@
 # Bloque 9 — Agentes Avanzados
 
-> **Bloque:** 9 · **Nivel:** Avanzado · **Tiempo estimado:** 4–6 horas
+> **Bloque:** 9 · **Nivel:** Avanzado · **Tiempo estimado:** 8–10 horas
 
 ---
 
-Este bloque cubre las técnicas más avanzadas del ecosistema de agentes de IA: desde orquestar múltiples agentes especializados hasta controlar interfaces gráficas, pasando por el protocolo estándar de Anthropic para conectar LLMs con herramientas externas y por la implementación de memoria persistente entre sesiones.
+Este bloque cubre las técnicas más avanzadas del ecosistema de agentes de IA: desde orquestar múltiples agentes especializados hasta controlar interfaces gráficas, pasando por el protocolo estándar de Anthropic para conectar LLMs con herramientas externas, la implementación de memoria persistente entre sesiones, y la construcción de agentes stateful con LangGraph, evaluación rigurosa, agentes de código y agentes especializados por dominio.
 
 ## Requisitos previos
 
@@ -16,6 +16,8 @@ Este bloque cubre las técnicas más avanzadas del ecosistema de agentes de IA: 
 
 ```bash
 pip install anthropic crewai mcp chromadb sentence-transformers pyautogui playwright
+pip install langgraph langchain-anthropic langchain-core langfuse e2b
+pip install yfinance pandas matplotlib beautifulsoup4 pypdf2 duckduckgo-search
 playwright install chromium
 ```
 
@@ -68,6 +70,38 @@ Framework de Microsoft Research para construir sistemas donde múltiples agentes
 Protocolo abierto propuesto por Google en 2025 para la comunicación estandarizada entre agentes de IA de diferentes sistemas. Implementa un servidor y cliente A2A con FastAPI y orquestación multi-agente.
 
 **Lo que aprenderás:** Agent Card, Task lifecycle, servidor A2A con streaming SSE, cliente A2A y patrones de orquestación multi-proveedor.
+
+---
+
+### [07 — LangGraph: Agentes con Estado y Memoria](./07-langgraph-agentes.md)
+
+Construye agentes stateful con LangGraph: grafos de control con estado persistente, checkpointing entre sesiones, human-in-the-loop y ejecución paralela de nodos.
+
+**Lo que aprenderás:** StateGraph, TypedDict reducers, ToolNode, MemorySaver, SqliteSaver, interrupt_before/after, subgrafos, streaming y patrones de producción.
+
+---
+
+### [08 — Evaluación y Testing de Agentes de IA](./08-evaluacion-agentes.md)
+
+Evalúa agentes de forma rigurosa: métricas de trayectoria, LLM-as-judge con rúbricas JSON, trazas instrumentadas, golden dataset y red teaming automatizado.
+
+**Lo que aprenderás:** task success rate, tool selection accuracy, trajectory efficiency, tracing con Langfuse, tests unitarios con mocks y casos adversariales.
+
+---
+
+### [09 — Agentes de Código](./09-agentes-codigo.md)
+
+Construye agentes que generan y ejecutan código de forma segura: sandboxing con E2B, agente analista de datos, agente de debugging automatizado y generador de tests.
+
+**Lo que aprenderás:** exec() con captura de output, sandboxing con E2B, validación AST, agente analista con pandas/matplotlib, agente de debugging con pytest y patrones de producción.
+
+---
+
+### [10 — Agentes Especializados por Dominio](./10-agentes-especializados.md)
+
+Diseña agentes enfocados en dominios específicos: investigación con búsqueda web y síntesis, análisis financiero (solo análisis, nunca ejecución de operaciones) y revisión de código en producción.
+
+**Lo que aprenderás:** Research Agent, Financial Agent, Code Review Agent, guía de selección por dominio y patrones comunes de especialización.
 
 ---
 

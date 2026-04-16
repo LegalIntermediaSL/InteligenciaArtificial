@@ -11,6 +11,22 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [0.7.0] — 2026-04-16
+
+### Añadido
+- **Bloque 9 — Agentes Avanzados (ampliación)**: 4 nuevos tutoriales que extienden el bloque de agentes:
+  - `07-langgraph-agentes.md` — StateGraph con TypedDict reducers, ToolNode, checkpointing con MemorySaver y SqliteSaver, human-in-the-loop con interrupt_before/after, subgrafos y paralelismo, streaming de tokens y eventos, patrones de producción (reintentos, timeout)
+  - `08-evaluacion-agentes.md` — Métricas de trayectoria (task success rate, tool selection accuracy, trajectory efficiency), LLM-as-judge con rúbrica JSON ponderada, trazas instrumentadas, tracing con Langfuse, golden dataset, tests unitarios con mocks y red teaming automatizado
+  - `09-agentes-codigo.md` — Ejecución con exec() y captura de stdout/stderr, sandboxing seguro con E2B, agente analista de datos (pandas/matplotlib), agente de debugging con pytest, generador de tests, validación AST y patrones de producción
+  - `10-agentes-especializados.md` — Research Agent (DuckDuckGo, lectura web, PDF), Financial Agent (yfinance, métricas de riesgo; solo análisis, nunca ejecución de trades), Code Review Agent (ruff, mypy, rúbrica estructurada), guía de selección y patrones comunes de especialización
+- **Aviso legal** añadido al `README.md` principal
+
+### Modificado
+- `tutoriales/agentes-avanzados/README.md` — actualizado con los 4 nuevos tutoriales, nuevas dependencias y tiempo estimado ampliado a 8–10 horas
+- `TODO.md` — bloque 9 actualizado con los 4 nuevos tutoriales
+
+---
+
 ## [0.6.0] — 2026-04-16
 
 ### Añadido

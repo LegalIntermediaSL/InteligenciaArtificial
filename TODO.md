@@ -116,6 +116,12 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] `02-model-context-protocol.md` — Servidor MCP, herramientas, recursos, Claude Desktop
 - [x] `03-computer-use.md` — Bucle de control, automatización de formularios, scraping visual
 - [x] `04-memoria-largo-plazo.md` — Memoria episódica JSON, semántica ChromaDB, compresión
+- [x] `05-autogen.md` — Microsoft AutoGen, GroupChat, orquestación multi-agente
+- [x] `06-a2a-protocol.md` — A2A Protocol (Google 2025), servidor/cliente FastAPI
+- [x] `07-langgraph-agentes.md` — StateGraph, checkpointing, human-in-the-loop, subgrafos, streaming
+- [x] `08-evaluacion-agentes.md` — Métricas de trayectoria, LLM-as-judge, tracing Langfuse, red teaming
+- [x] `09-agentes-codigo.md` — exec(), sandboxing E2B, agente analista, debugging automatizado, generador de tests
+- [x] `10-agentes-especializados.md` — Research Agent, Financial Agent, Code Review Agent
 
 ---
 

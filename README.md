@@ -183,4 +183,4 @@ Distribuido bajo licencia **MIT** — ver [LICENSE](./LICENSE) para más detalle
 
 ---
 
-*Mantenido por [LegalIntermediaSL](https://github.com/LegalIntermediaSL) · 17 bloques · 80+ tutoriales · Última actualización: abril 2026*
+*Mantenido por [LegalIntermediaSL](https://github.com/LegalIntermediaSL) · 17 bloques · 84+ tutoriales · Última actualización: abril 2026*
