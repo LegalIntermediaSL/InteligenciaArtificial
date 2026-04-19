@@ -226,3 +226,46 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] `02-make-zapier-ia.md` — Make.com escenarios, Zapier zaps, casos prácticos, guía de decisión
 - [x] `03-pipelines-negocio.md` — LangChain LCEL, Batch API, Celery/Redis, pipeline de contratos
 - [x] `04-integracion-herramientas-negocio.md` — HubSpot, Google Workspace, Microsoft 365, Slack bot, Notion
+
+---
+
+## Notebooks pendientes de crear ✅
+
+- [x] `notebooks/mlops/01-registro-modelos.ipynb`
+- [x] `notebooks/mlops/02-ab-testing-llms.ipynb`
+- [x] `notebooks/mlops/03-deteccion-drift.ipynb`
+- [x] `notebooks/mlops/04-pipelines-automatizados.ipynb`
+- [x] `notebooks/automatizacion/01-n8n-ia.ipynb`
+- [x] `notebooks/automatizacion/02-make-zapier-ia.ipynb`
+- [x] `notebooks/automatizacion/03-pipelines-negocio.ipynb`
+- [x] `notebooks/automatizacion/04-integracion-herramientas-negocio.ipynb`
+- [x] `notebooks/produccion/04-despliegue.ipynb`
+- [x] `notebooks/agentes-avanzados/03-computer-use.ipynb`
+
+---
+
+## Bloque 18 — Funcionalidades avanzadas de la API Anthropic (pendiente)
+
+- [ ] `tutoriales/apis-avanzadas/01-extended-thinking.md` — Razonamiento extendido (claude-sonnet-4-6), budget_tokens, casos de uso matemáticos y lógicos
+- [ ] `tutoriales/apis-avanzadas/02-batch-api.md` — Batch API para procesamiento masivo asíncrono, ahorro de costes, polling y webhooks
+- [ ] `tutoriales/apis-avanzadas/03-files-api.md` — Files API para subida de documentos grandes, reutilización entre llamadas, formatos soportados
+- [ ] `tutoriales/apis-avanzadas/04-citations-api.md` — Citas automáticas de fuentes, grounding factual, RAG con atribución
+- [ ] `tutoriales/apis-avanzadas/05-prompt-caching.md` — Cache de prompts estáticos, reducción de costes hasta 90%, patrones de uso
+
+---
+
+## Bloque 19 — Claude Agent SDK y construcción de agentes (pendiente)
+
+- [ ] `tutoriales/agent-sdk/01-primeros-pasos.md` — Agent SDK de Anthropic, estructura básica, herramientas, bucle agéntico
+- [ ] `tutoriales/agent-sdk/02-agentes-compuestos.md` — Orquestador + subagentes especializados, paso de contexto
+- [ ] `tutoriales/agent-sdk/03-agentes-con-memoria.md` — Memoria a corto y largo plazo, gestión del contexto entre sesiones
+- [ ] `tutoriales/agent-sdk/04-despliegue-agentes.md` — FastAPI wrapper, streaming de eventos, monitorización, escalado
+
+---
+
+## Bloque 20 — IA en la empresa: casos reales (pendiente)
+
+- [ ] `tutoriales/ia-empresarial/01-estrategia-ia.md` — Cómo evaluar e implementar IA en una empresa, ROI, change management
+- [ ] `tutoriales/ia-empresarial/02-ia-legal-compliance.md` — IA en despachos legales, contratos, due diligence, límites legales
+- [ ] `tutoriales/ia-empresarial/03-ia-customer-success.md` — IA para retención de clientes, CSAT, predicción de churn
+- [ ] `tutoriales/ia-empresarial/04-ia-producto.md` — IA en el proceso de producto: user research, priorización, A/B testing
