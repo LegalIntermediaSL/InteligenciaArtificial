@@ -244,28 +244,42 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 
 ---
 
-## Bloque 18 — Funcionalidades avanzadas de la API Anthropic (pendiente)
+## Bloque 18 — Funcionalidades avanzadas de la API Anthropic ✅
 
-- [ ] `tutoriales/apis-avanzadas/01-extended-thinking.md` — Razonamiento extendido (claude-sonnet-4-6), budget_tokens, casos de uso matemáticos y lógicos
-- [ ] `tutoriales/apis-avanzadas/02-batch-api.md` — Batch API para procesamiento masivo asíncrono, ahorro de costes, polling y webhooks
-- [ ] `tutoriales/apis-avanzadas/03-files-api.md` — Files API para subida de documentos grandes, reutilización entre llamadas, formatos soportados
-- [ ] `tutoriales/apis-avanzadas/04-citations-api.md` — Citas automáticas de fuentes, grounding factual, RAG con atribución
-- [ ] `tutoriales/apis-avanzadas/05-prompt-caching.md` — Cache de prompts estáticos, reducción de costes hasta 90%, patrones de uso
-
----
-
-## Bloque 19 — Claude Agent SDK y construcción de agentes (pendiente)
-
-- [ ] `tutoriales/agent-sdk/01-primeros-pasos.md` — Agent SDK de Anthropic, estructura básica, herramientas, bucle agéntico
-- [ ] `tutoriales/agent-sdk/02-agentes-compuestos.md` — Orquestador + subagentes especializados, paso de contexto
-- [ ] `tutoriales/agent-sdk/03-agentes-con-memoria.md` — Memoria a corto y largo plazo, gestión del contexto entre sesiones
-- [ ] `tutoriales/agent-sdk/04-despliegue-agentes.md` — FastAPI wrapper, streaming de eventos, monitorización, escalado
+- [x] `tutoriales/apis-avanzadas/01-extended-thinking.md` — Razonamiento extendido (claude-sonnet-4-6), budget_tokens, casos de uso matemáticos y lógicos
+- [x] `tutoriales/apis-avanzadas/02-batch-api.md` — Batch API para procesamiento masivo asíncrono, ahorro de costes, polling y webhooks
+- [x] `tutoriales/apis-avanzadas/03-files-api.md` — Files API para subida de documentos grandes, reutilización entre llamadas, formatos soportados
+- [x] `tutoriales/apis-avanzadas/04-citations-api.md` — Citas automáticas de fuentes, grounding factual, RAG con atribución
+- [x] `tutoriales/apis-avanzadas/05-prompt-caching.md` — Cache de prompts estáticos, reducción de costes hasta 90%, patrones de uso
+- [x] `notebooks/apis-avanzadas/01-extended-thinking.ipynb`
+- [x] `notebooks/apis-avanzadas/02-batch-api.ipynb`
+- [x] `notebooks/apis-avanzadas/03-files-api.ipynb`
+- [x] `notebooks/apis-avanzadas/04-citations-api.ipynb`
+- [x] `notebooks/apis-avanzadas/05-prompt-caching.ipynb`
 
 ---
 
-## Bloque 20 — IA en la empresa: casos reales (pendiente)
+## Bloque 19 — Claude Agent SDK y construcción de agentes ✅
 
-- [ ] `tutoriales/ia-empresarial/01-estrategia-ia.md` — Cómo evaluar e implementar IA en una empresa, ROI, change management
-- [ ] `tutoriales/ia-empresarial/02-ia-legal-compliance.md` — IA en despachos legales, contratos, due diligence, límites legales
-- [ ] `tutoriales/ia-empresarial/03-ia-customer-success.md` — IA para retención de clientes, CSAT, predicción de churn
-- [ ] `tutoriales/ia-empresarial/04-ia-producto.md` — IA en el proceso de producto: user research, priorización, A/B testing
+- [x] `tutoriales/agent-sdk/01-primeros-pasos.md` — Agent SDK de Anthropic, estructura básica, herramientas, bucle agéntico
+- [x] `tutoriales/agent-sdk/02-agentes-compuestos.md` — Orquestador + subagentes especializados, paso de contexto
+- [x] `tutoriales/agent-sdk/03-agentes-con-memoria.md` — Memoria a corto y largo plazo, gestión del contexto entre sesiones
+- [x] `tutoriales/agent-sdk/04-despliegue-agentes.md` — FastAPI wrapper, streaming de eventos, monitorización, escalado
+- [x] `notebooks/agent-sdk/01-primeros-pasos.ipynb`
+- [x] `notebooks/agent-sdk/02-agentes-compuestos.ipynb`
+- [x] `notebooks/agent-sdk/03-agentes-con-memoria.ipynb`
+- [x] `notebooks/agent-sdk/04-despliegue-agentes.ipynb`
+
+---
+
+## Bloque 20 — IA en la empresa: casos reales ✅
+
+- [x] `tutoriales/ia-empresarial/01-estrategia-ia.md` — Cómo evaluar e implementar IA en una empresa, ROI, change management
+- [x] `tutoriales/ia-empresarial/02-ia-legal-compliance.md` — IA en despachos legales, contratos, due diligence, límites legales
+- [x] `tutoriales/ia-empresarial/03-ia-customer-success.md` — IA para retención de clientes, CSAT, predicción de churn
+- [x] `tutoriales/ia-empresarial/04-ia-producto.md` — IA en el proceso de producto: user research, priorización, A/B testing
+- [x] `notebooks/ia-empresarial/01-estrategia-ia.ipynb`
+- [x] `notebooks/ia-empresarial/02-ia-legal-compliance.ipynb`
+- [x] `notebooks/ia-empresarial/03-ia-customer-success.ipynb`
+- [x] `notebooks/ia-empresarial/04-ia-producto.ipynb`
+- [x] `REFERENCIAS.md` — Referencias, vínculos y documentación relacionada
