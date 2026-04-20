@@ -283,3 +283,27 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] `notebooks/ia-empresarial/03-ia-customer-success.ipynb`
 - [x] `notebooks/ia-empresarial/04-ia-producto.ipynb`
 - [x] `REFERENCIAS.md` — Referencias, vínculos y documentación relacionada
+
+---
+
+## Bloque 21 — IA para Startups ✅
+
+- [x] `tutoriales/ia-startups/README.md`
+- [x] `tutoriales/ia-startups/01-stack-minimo.md` — Stack mínimo, selector de modelo, backend MVP con FastAPI
+- [x] `tutoriales/ia-startups/02-mvp-dos-semanas.md` — Metodología 2 semanas, versionado de prompts, pipeline y pricing
+- [x] `tutoriales/ia-startups/03-costes-y-escalado.md` — Monitor de costes, router de modelos, prompt caching, proyecciones
+- [x] `tutoriales/ia-startups/04-ia-ventaja-competitiva.md` — Data flywheel, evaluación de moat, narrativa inversores
+- [x] `notebooks/ia-startups/01-stack-minimo.ipynb`
+- [x] `notebooks/ia-startups/02-mvp-dos-semanas.ipynb`
+- [x] `notebooks/ia-startups/03-costes-y-escalado.ipynb`
+- [x] `notebooks/ia-startups/04-ia-ventaja-competitiva.ipynb`
+
+---
+
+## Bloque 22 — Workflows con n8n y Claude (pendiente)
+
+- [ ] `tutoriales/n8n-workflows/README.md`
+- [ ] `tutoriales/n8n-workflows/01-introduccion-n8n.md` — Instalación, conceptos, primer workflow con IA
+- [ ] `tutoriales/n8n-workflows/02-workflows-documentos.md` — Procesamiento de facturas, contratos y PDFs con Claude
+- [ ] `tutoriales/n8n-workflows/03-workflows-negocio.md` — CRM, email marketing, Slack bot y reportes automáticos
+- [ ] `tutoriales/n8n-workflows/04-workflows-avanzados.md` — Sub-workflows, webhooks, manejo de errores y producción
