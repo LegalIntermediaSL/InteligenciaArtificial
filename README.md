@@ -33,6 +33,13 @@ El proyecto nace con la vocación de ser una guía progresiva: desde los concept
 | **15 — IA responsable** | Sesgos y fairness, interpretabilidad (SHAP, LIME), model cards, GDPR y EU AI Act |
 | **16 — MLOps** | Registro de modelos, A/B testing, detección de drift, pipelines automatizados con Prefect |
 | **17 — Automatización con IA** | n8n, Make, Zapier, pipelines de negocio, HubSpot, Slack bot, Google Workspace |
+| **18 — APIs avanzadas Anthropic** | Extended Thinking, Batch API, Files API, Citations API, Prompt Caching |
+| **19 — Claude Agent SDK** | Primeros pasos, agentes compuestos, memoria, despliegue con FastAPI |
+| **20 — IA en la empresa** | Estrategia, legal/compliance, Customer Success, producto |
+| **21 — IA para startups** | Stack mínimo, MVP en 2 semanas, costes y escalado, ventaja competitiva |
+| **22 — Workflows con n8n** | Orquestación visual con Claude: documentos, negocio, webhooks, producción |
+| **23 — Claude Code** | CLI, MCP servers personalizados, hooks, flujos de desarrollo con IA |
+| **25 — Proyectos integradores** | 4 proyectos completos: SaaS contratos, chatbot soporte, pipeline contenido, asistente datos |
 
 ---
 
@@ -57,6 +64,13 @@ InteligenciaArtificial/
 │   ├── ia-responsable/               # Bloque 15 — Fairness, GDPR, EU AI Act
 │   ├── mlops/                        # Bloque 16 — MLOps, drift, pipelines
 │   ├── automatizacion/               # Bloque 17 — n8n, Make, Zapier, integraciones
+│   ├── apis-avanzadas/               # Bloque 18 — APIs avanzadas Anthropic
+│   ├── agent-sdk/                    # Bloque 19 — Claude Agent SDK
+│   ├── ia-empresarial/               # Bloque 20 — IA en la empresa
+│   ├── ia-startups/                  # Bloque 21 — IA para startups
+│   ├── n8n-workflows/                # Bloque 22 — Workflows con n8n y Claude
+│   ├── claude-code/                  # Bloque 23 — Claude Code y desarrollo asistido
+│   ├── proyectos-integradores/       # Bloque 25 — Proyectos completos de principio a fin
 │   └── notebooks/                    # Notebooks Jupyter interactivos (todos los bloques)
 ├── javascript/                       # Bloque 6 — Ejemplos JS/TS
 ├── README.md                         # Este archivo
@@ -88,10 +102,17 @@ Bloque 1 (Fundamentos)
                           ├─► Bloque 14 (Fine-tuning avanzado)
                           ├─► Bloque 15 (IA responsable)
                           ├─► Bloque 16 (MLOps)
-                          └─► Bloque 17 (Automatización)
+                          ├─► Bloque 17 (Automatización)
+                          ├─► Bloque 18 (APIs avanzadas Anthropic)
+                          ├─► Bloque 19 (Agent SDK)
+                          ├─► Bloque 20 (IA empresarial)
+                          ├─► Bloque 21 (IA para startups)
+                          ├─► Bloque 22 (Workflows n8n)
+                          ├─► Bloque 23 (Claude Code)
+                          └─► Bloque 25 (Proyectos integradores)
 ```
 
-Los bloques del 7 al 17 son independientes entre sí y pueden leerse en cualquier orden una vez completados los 5 primeros.
+Los bloques del 7 al 23 son independientes entre sí y pueden leerse en cualquier orden una vez completados los 5 primeros. El Bloque 25 (Proyectos integradores) combina conocimientos de varios bloques y se recomienda como cierre.
 
 ---
 

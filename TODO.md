@@ -325,3 +325,17 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] `notebooks/proyectos-integradores/02-chatbot-soporte.ipynb`
 - [x] `notebooks/proyectos-integradores/03-pipeline-contenido.ipynb`
 - [x] `notebooks/proyectos-integradores/04-asistente-datos.ipynb`
+
+---
+
+## Bloque 23 — Claude Code y desarrollo asistido por IA ✅
+
+- [x] `tutoriales/claude-code/README.md`
+- [x] `tutoriales/claude-code/01-claude-code-cli.md` — Instalación, slash commands, CLAUDE.md, configuración avanzada
+- [x] `tutoriales/claude-code/02-mcp-servers.md` — Servidores MCP en Python, recursos, prompts reutilizables, HTTP mode
+- [x] `tutoriales/claude-code/03-hooks-automatizacion.md` — Hooks de ciclo de vida, linting, auditoría, CI/CD con GitHub Actions
+- [x] `tutoriales/claude-code/04-flujos-desarrollo-ia.md` — Flujos completos, debug, code review, comparativa Cursor/Copilot
+- [x] `notebooks/claude-code/01-claude-code-cli.ipynb`
+- [x] `notebooks/claude-code/02-mcp-servers.ipynb`
+- [x] `notebooks/claude-code/03-hooks-automatizacion.ipynb`
+- [x] `notebooks/claude-code/04-flujos-desarrollo-ia.ipynb`

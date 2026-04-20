@@ -4,6 +4,22 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-20 (v1.0.0)
+
+### Bloques 22, 23 y 25 — n8n, Claude Code y Proyectos integradores
+
+- Se añade el **Bloque 22 — Workflows con n8n y Claude**: patrón de orquestación visual donde n8n gestiona las integraciones (Gmail, Slack, HubSpot, webhooks) y Claude aporta el razonamiento. Todos los Code nodes usan `$http.request`, `$env.VAR` y `$input.first().json` — la API exacta de n8n. Los notebooks simulan los mismos patrones en Python para que el lector entienda la lógica antes de implementarlos visualmente.
+
+- Se añade el **Bloque 23 — Claude Code y desarrollo asistido**: primer bloque centrado en herramientas para desarrolladores en lugar de en la API. Decisión clave: incluir los tres niveles (CLI básico → MCP servers → hooks) en lugar de solo el uso básico, porque el valor diferencial de Claude Code frente a Copilot está en MCP y hooks. Se incluye comparativa honesta Cursor vs Copilot vs Claude Code sin sesgo hacia Anthropic.
+
+- Se añade el **Bloque 25 — Proyectos integradores**: cuatro proyectos completos que combinan bloques anteriores. Numerados como "25" dejando espacio para un futuro Bloque 24 (PydanticAI/frameworks modernos) cuando maduren. Cada proyecto tiene arquitectura, código funcional y checklist de producción — no son demos sino puntos de partida reales. El proyecto de análisis de datos (04) usa sandbox de ejecución de Pandas con lista de operaciones prohibidas, patrón que evita inyección de código.
+
+- Se alcanza **v1.0.0**: el repositorio cubre ahora el ciclo completo desde fundamentos hasta proyectos de producción reales, con 23+ bloques, 100+ notebooks y múltiples proyectos integradores.
+
+- `README.md` actualizado con todos los bloques, estructura de directorios completa y orden de lectura revisado.
+
+---
+
 ## 2026-04-16 (v0.6.0)
 
 ### Bloques 10–13, mejoras transversales y notebooks

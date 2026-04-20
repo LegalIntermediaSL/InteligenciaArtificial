@@ -11,6 +11,31 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.0.0] — 2026-04-20
+
+### Añadido
+- **Bloque 22 — Workflows con n8n y Claude**: 4 artículos + 4 notebooks
+  - `01-introduccion-n8n.md` — conceptos, primer workflow Email→Claude→Slack
+  - `02-workflows-documentos.md` — facturas, contratos, resumen largo, leads
+  - `03-workflows-negocio.md` — triaje emails, CRM, Slack bot, informe semanal
+  - `04-workflows-avanzados.md` — sub-workflows, webhooks, reintentos, Docker Compose
+
+- **Bloque 23 — Claude Code y desarrollo asistido**: 4 artículos + 4 notebooks
+  - `01-claude-code-cli.md` — instalación, slash commands, CLAUDE.md, configuración
+  - `02-mcp-servers.md` — servidores MCP en Python, recursos, prompts, HTTP mode
+  - `03-hooks-automatizacion.md` — hooks de ciclo de vida, linting, auditoría, CI/CD
+  - `04-flujos-desarrollo-ia.md` — flujos completos, debug, code review, comparativa
+
+- **Bloque 25 — Proyectos integradores**: 4 proyectos completos + 4 notebooks
+  - `01-saas-contratos.md` — SaaS legal: Files API + ChromaDB + FastAPI + Pydantic
+  - `02-chatbot-soporte.md` — chatbot con KB vectorial y enrutamiento Haiku→Sonnet
+  - `03-pipeline-contenido.md` — multi-formato con LLM-as-judge y A/B de prompts
+  - `04-asistente-datos.md` — tool use nativo, sandbox Pandas, bucle agéntico
+
+- `README.md` — actualizado con bloques 18-23 y 25, estructura y orden de lectura
+
+---
+
 ## [0.7.0] — 2026-04-16
 
 ### Añadido
