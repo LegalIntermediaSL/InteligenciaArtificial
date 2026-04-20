@@ -11,6 +11,34 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.1.0] — 2026-04-20
+
+### Añadido
+
+- **Bloque 24 — PydanticAI y frameworks de agentes**: 4 artículos + README + 4 notebooks
+  - `01-pydanticai-intro.md` — Agent tipado, result_type, deps_type, streaming, historial de mensajes
+  - `02-pydanticai-avanzado.md` — TestModel, ModelRetry, nested agents, FastAPI, Logfire
+  - `03-mastra-ai.md` — TypeScript agent framework: createTool, Workflow, Memory con PostgreSQL, evaluación
+  - `04-comparativa-frameworks.md` — PydanticAI vs LangGraph vs CrewAI vs AutoGen vs Mastra con árbol de decisión
+  - Notebooks interactivos para cada artículo con benchmarks de latencia y TestModel
+
+- **Bloque 1 ampliado — Fundamentos** (2 artículos + 2 notebooks nuevos):
+  - `04-redes-neuronales.md` — Neurona artificial, funciones de activación (ReLU/GELU/Sigmoid/Tanh), MLP desde cero con backpropagation, entrenamiento con SGD, PyTorch `nn.Sequential`
+  - `05-transformers-atencion.md` — Scaled Dot-Product Attention, atención multi-cabeza, codificación posicional sinusoidal, generación autoregresiva, ley de Chinchilla
+  - `notebooks/fundamentos/04-redes-neuronales.ipynb`
+  - `notebooks/fundamentos/05-transformers-atencion.ipynb`
+
+- **Bloque 8 ampliado — Multimodalidad** (1 artículo + 1 notebook nuevos):
+  - `04-video-ia.md` — Gemini video nativo (hasta 1h), Claude Vision por fotogramas con ffmpeg, Whisper para transcripción (chunking 25MB), Runway ML texto-a-video, generación automática de SRT, casos empresariales
+  - `notebooks/multimodalidad/04-video-ia.ipynb`
+
+- **Notebooks relleno de huecos** (14 notebooks nuevos):
+  - Bloque 2 (LLMs): `01-que-es-un-llm.ipynb`, `03-finetuning-vs-rag.ipynb`, `08-dspy.ipynb`, `09-langgraph.ipynb`, `10-gestion-contexto.ipynb`, `11-tokenizacion.ipynb`, `12-function-calling-avanzado.ipynb`
+  - Bloque 3 (APIs): `02-api-openai.ipynb`, `03-comparativa-proveedores.ipynb`, `04-google-gemini.ipynb`, `05-mistral-cohere.ipynb`
+  - Bloque 4 (Python): `01-intro-python-ia.ipynb`, `02-librerias-esenciales.ipynb`, `03-jupyter-notebooks.ipynb`
+
+---
+
 ## [1.0.0] — 2026-04-20
 
 ### Añadido

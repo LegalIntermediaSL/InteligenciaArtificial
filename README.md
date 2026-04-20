@@ -39,6 +39,7 @@ El proyecto nace con la vocación de ser una guía progresiva: desde los concept
 | **21 — IA para startups** | Stack mínimo, MVP en 2 semanas, costes y escalado, ventaja competitiva |
 | **22 — Workflows con n8n** | Orquestación visual con Claude: documentos, negocio, webhooks, producción |
 | **23 — Claude Code** | CLI, MCP servers personalizados, hooks, flujos de desarrollo con IA |
+| **24 — PydanticAI y frameworks** | PydanticAI (tipado, TestModel, nested agents), Mastra.ai (TypeScript), comparativa LangGraph/CrewAI/AutoGen |
 | **25 — Proyectos integradores** | 4 proyectos completos: SaaS contratos, chatbot soporte, pipeline contenido, asistente datos |
 
 ---
@@ -70,6 +71,7 @@ InteligenciaArtificial/
 │   ├── ia-startups/                  # Bloque 21 — IA para startups
 │   ├── n8n-workflows/                # Bloque 22 — Workflows con n8n y Claude
 │   ├── claude-code/                  # Bloque 23 — Claude Code y desarrollo asistido
+│   ├── pydanticai/                   # Bloque 24 — PydanticAI, Mastra.ai y frameworks de agentes
 │   ├── proyectos-integradores/       # Bloque 25 — Proyectos completos de principio a fin
 │   └── notebooks/                    # Notebooks Jupyter interactivos (todos los bloques)
 ├── javascript/                       # Bloque 6 — Ejemplos JS/TS
@@ -109,6 +111,7 @@ Bloque 1 (Fundamentos)
                           ├─► Bloque 21 (IA para startups)
                           ├─► Bloque 22 (Workflows n8n)
                           ├─► Bloque 23 (Claude Code)
+                          ├─► Bloque 24 (PydanticAI y frameworks)
                           └─► Bloque 25 (Proyectos integradores)
 ```
 

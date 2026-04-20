@@ -4,6 +4,20 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-20 (v1.1.0)
+
+### Bloque 24, ampliación de Fundamentos y Multimodalidad, relleno de notebooks
+
+- Se crea el **Bloque 24 — PydanticAI y frameworks de agentes**: el espacio reservado desde v1.0.0 se rellena ahora que PydanticAI ha madurado. Se incluyen cuatro artículos: introducción tipada, patrones avanzados (TestModel, ModelRetry, nested agents), Mastra.ai (TypeScript framework) y comparativa de frameworks. Decisión clave: Mastra se cubre en Python simulado + referencia TypeScript porque el repositorio es predominantemente Python, pero los patrones son transferibles. El árbol de decisión de frameworks es el núcleo del artículo de comparativa — responde la pregunta más frecuente en proyectos nuevos.
+
+- **Ampliación Bloque 1 — Fundamentos** con dos artículos que cubrían un hueco crítico: `04-redes-neuronales.md` (neurona → MLP → backpropagation → PyTorch) y `05-transformers-atencion.md` (Q/K/V → multi-cabeza → PE → Chinchilla). Decisión: incluirlos en Fundamentos (no en LLMs) porque son la base matemática que hace que el resto del repositorio tenga sentido. Ambos incluyen implementaciones NumPy desde cero para reforzar la comprensión, con notebooks interactivos que visualizan mapas de atención y PE sinusoidal.
+
+- **Ampliación Bloque 8 — Multimodalidad** con `04-video-ia.md`: cubre Gemini nativo (video hasta 1h), Claude Vision por fotogramas con ffmpeg, transcripción Whisper con chunking para archivos >25MB, generación Runway ML y subtítulos SRT automáticos. Decisión: documentar los dos caminos (Gemini nativo vs Claude+ffmpeg) porque el acceso a Gemini no está garantizado en todos los proyectos.
+
+- **14 notebooks de relleno**: auditoría detectó que bloques 2 (LLMs), 3 (APIs) y 4 (Python) tenían artículos sin notebook. Se crean los 14 faltantes para cerrar la brecha. Patrón consistente: cada notebook arranca con `# pip install ...` y una celda de verificación de dependencias, usa `claude-haiku-4-5-20251001` como modelo por defecto para minimizar costes, e incluye estimaciones de coste en los casos relevantes.
+
+---
+
 ## 2026-04-20 (v1.0.0)
 
 ### Bloques 22, 23 y 25 — n8n, Claude Code y Proyectos integradores

@@ -339,3 +339,62 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] `notebooks/claude-code/02-mcp-servers.ipynb`
 - [x] `notebooks/claude-code/03-hooks-automatizacion.ipynb`
 - [x] `notebooks/claude-code/04-flujos-desarrollo-ia.ipynb`
+
+---
+
+## Bloque 24 — PydanticAI y frameworks de agentes ✅
+
+- [x] `tutoriales/pydanticai/README.md`
+- [x] `tutoriales/pydanticai/01-pydanticai-intro.md` — Agent tipado, result_type, deps_type, streaming, historial
+- [x] `tutoriales/pydanticai/02-pydanticai-avanzado.md` — TestModel, ModelRetry, nested agents, FastAPI, Logfire
+- [x] `tutoriales/pydanticai/03-mastra-ai.md` — TypeScript agent framework, createTool, Workflow, Memory, evals
+- [x] `tutoriales/pydanticai/04-comparativa-frameworks.md` — PydanticAI vs LangGraph vs CrewAI vs AutoGen vs Mastra
+- [x] `notebooks/pydanticai/01-pydanticai-intro.ipynb`
+- [x] `notebooks/pydanticai/02-pydanticai-avanzado.ipynb`
+- [x] `notebooks/pydanticai/03-mastra-ai.ipynb`
+- [x] `notebooks/pydanticai/04-comparativa-frameworks.ipynb`
+
+---
+
+## Bloque 1 ampliado — Fundamentos (redes neuronales y Transformers) ✅
+
+- [x] `tutoriales/fundamentos/04-redes-neuronales.md` — Neurona, activaciones, MLP desde cero, backpropagation, PyTorch
+- [x] `tutoriales/fundamentos/05-transformers-atencion.md` — Atención Q/K/V, multi-cabeza, PE sinusoidal, ley Chinchilla
+- [x] `notebooks/fundamentos/04-redes-neuronales.ipynb`
+- [x] `notebooks/fundamentos/05-transformers-atencion.ipynb`
+
+---
+
+## Bloque 8 ampliado — Multimodalidad (video e IA) ✅
+
+- [x] `tutoriales/multimodalidad/04-video-ia.md` — Gemini video, Claude Vision frames, Whisper, Runway ML, SRT
+- [x] `notebooks/multimodalidad/04-video-ia.ipynb`
+
+---
+
+## Notebooks pendientes bloque 2 (LLMs) ✅
+
+- [x] `notebooks/llms/01-que-es-un-llm.ipynb`
+- [x] `notebooks/llms/03-finetuning-vs-rag.ipynb`
+- [x] `notebooks/llms/08-dspy.ipynb`
+- [x] `notebooks/llms/09-langgraph.ipynb`
+- [x] `notebooks/llms/10-gestion-contexto.ipynb`
+- [x] `notebooks/llms/11-tokenizacion.ipynb`
+- [x] `notebooks/llms/12-function-calling-avanzado.ipynb`
+
+---
+
+## Notebooks pendientes bloque 3 (APIs) ✅
+
+- [x] `notebooks/apis/02-api-openai.ipynb`
+- [x] `notebooks/apis/03-comparativa-proveedores.ipynb`
+- [x] `notebooks/apis/04-google-gemini.ipynb`
+- [x] `notebooks/apis/05-mistral-cohere.ipynb`
+
+---
+
+## Notebooks pendientes bloque 4 (Python para IA) ✅
+
+- [x] `notebooks/python-para-ia/01-intro-python-ia.ipynb`
+- [x] `notebooks/python-para-ia/02-librerias-esenciales.ipynb`
+- [x] `notebooks/python-para-ia/03-jupyter-notebooks.ipynb`
