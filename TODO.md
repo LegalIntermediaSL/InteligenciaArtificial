@@ -311,3 +311,17 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] `notebooks/n8n-workflows/02-workflows-documentos.ipynb`
 - [x] `notebooks/n8n-workflows/03-workflows-negocio.ipynb`
 - [x] `notebooks/n8n-workflows/04-workflows-avanzados.ipynb`
+
+---
+
+## Bloque 25 — Proyectos integradores ✅
+
+- [x] `tutoriales/proyectos-integradores/README.md`
+- [x] `tutoriales/proyectos-integradores/01-saas-contratos.md` — SaaS análisis legal: Files API, ChromaDB, FastAPI, rate limiting
+- [x] `tutoriales/proyectos-integradores/02-chatbot-soporte.md` — Chatbot soporte: KB vectorial, memoria, Haiku→Sonnet→escalado
+- [x] `tutoriales/proyectos-integradores/03-pipeline-contenido.md` — Pipeline multi-formato: blog/Twitter/LinkedIn/newsletter + evaluación
+- [x] `tutoriales/proyectos-integradores/04-asistente-datos.md` — Asistente datos: tool use, sandbox Pandas, bucle agéntico
+- [x] `notebooks/proyectos-integradores/01-saas-contratos.ipynb`
+- [x] `notebooks/proyectos-integradores/02-chatbot-soporte.ipynb`
+- [x] `notebooks/proyectos-integradores/03-pipeline-contenido.ipynb`
+- [x] `notebooks/proyectos-integradores/04-asistente-datos.ipynb`
