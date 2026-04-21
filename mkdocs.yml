@@ -167,6 +167,55 @@ nav:
     - '02 · Make y Zapier': tutoriales/automatizacion/02-make-zapier-ia.md
     - '03 · Pipelines de negocio': tutoriales/automatizacion/03-pipelines-negocio.md
     - '04 · Herramientas de negocio': tutoriales/automatizacion/04-integracion-herramientas-negocio.md
+  - Bloque 18 — APIs avanzadas Anthropic:
+    - Índice: tutoriales/apis-avanzadas/README.md
+    - '01 · Extended Thinking': tutoriales/apis-avanzadas/01-extended-thinking.md
+    - '02 · Batch API': tutoriales/apis-avanzadas/02-batch-api.md
+    - '03 · Files API': tutoriales/apis-avanzadas/03-files-api.md
+    - '04 · Citations API': tutoriales/apis-avanzadas/04-citations-api.md
+    - '05 · Prompt Caching': tutoriales/apis-avanzadas/05-prompt-caching.md
+  - Bloque 19 — Agent SDK:
+    - Índice: tutoriales/agent-sdk/README.md
+    - '01 · Primeros pasos': tutoriales/agent-sdk/01-primeros-pasos.md
+    - '02 · Agentes compuestos': tutoriales/agent-sdk/02-agentes-compuestos.md
+    - '03 · Agentes con memoria': tutoriales/agent-sdk/03-agentes-con-memoria.md
+    - '04 · Despliegue de agentes': tutoriales/agent-sdk/04-despliegue-agentes.md
+  - Bloque 20 — IA en la empresa:
+    - Índice: tutoriales/ia-empresarial/README.md
+    - '01 · Estrategia de IA': tutoriales/ia-empresarial/01-estrategia-ia.md
+    - '02 · IA legal y compliance': tutoriales/ia-empresarial/02-ia-legal-compliance.md
+    - '03 · IA en customer success': tutoriales/ia-empresarial/03-ia-customer-success.md
+    - '04 · IA en producto': tutoriales/ia-empresarial/04-ia-producto.md
+  - Bloque 21 — IA para Startups:
+    - Índice: tutoriales/ia-startups/README.md
+    - '01 · Stack mínimo': tutoriales/ia-startups/01-stack-minimo.md
+    - '02 · MVP en dos semanas': tutoriales/ia-startups/02-mvp-dos-semanas.md
+    - '03 · Costes y escalado': tutoriales/ia-startups/03-costes-y-escalado.md
+    - '04 · IA como ventaja competitiva': tutoriales/ia-startups/04-ia-ventaja-competitiva.md
+  - Bloque 22 — Workflows con n8n y Claude:
+    - Índice: tutoriales/n8n-workflows/README.md
+    - '01 · Introducción a n8n': tutoriales/n8n-workflows/01-introduccion-n8n.md
+    - '02 · Workflows de documentos': tutoriales/n8n-workflows/02-workflows-documentos.md
+    - '03 · Workflows de negocio': tutoriales/n8n-workflows/03-workflows-negocio.md
+    - '04 · Workflows avanzados': tutoriales/n8n-workflows/04-workflows-avanzados.md
+  - Bloque 23 — Claude Code y desarrollo asistido:
+    - Índice: tutoriales/claude-code/README.md
+    - '01 · Claude Code CLI': tutoriales/claude-code/01-claude-code-cli.md
+    - '02 · MCP Servers': tutoriales/claude-code/02-mcp-servers.md
+    - '03 · Hooks y automatización': tutoriales/claude-code/03-hooks-automatizacion.md
+    - '04 · Flujos de desarrollo con IA': tutoriales/claude-code/04-flujos-desarrollo-ia.md
+  - Bloque 24 — PydanticAI y frameworks de agentes:
+    - Índice: tutoriales/pydanticai/README.md
+    - '01 · PydanticAI intro': tutoriales/pydanticai/01-pydanticai-intro.md
+    - '02 · PydanticAI avanzado': tutoriales/pydanticai/02-pydanticai-avanzado.md
+    - '03 · Mastra AI': tutoriales/pydanticai/03-mastra-ai.md
+    - '04 · Comparativa de frameworks': tutoriales/pydanticai/04-comparativa-frameworks.md
+  - Bloque 25 — Proyectos integradores:
+    - Índice: tutoriales/proyectos-integradores/README.md
+    - '01 · SaaS de contratos': tutoriales/proyectos-integradores/01-saas-contratos.md
+    - '02 · Chatbot de soporte': tutoriales/proyectos-integradores/02-chatbot-soporte.md
+    - '03 · Pipeline de contenido': tutoriales/proyectos-integradores/03-pipeline-contenido.md
+    - '04 · Asistente de datos': tutoriales/proyectos-integradores/04-asistente-datos.md
   - Bloque 26 — Familia Claude 4.X:
     - Índice: tutoriales/claude-4/README.md
     - '01 · Familia Claude 4.X': tutoriales/claude-4/01-familia-claude-4.md
