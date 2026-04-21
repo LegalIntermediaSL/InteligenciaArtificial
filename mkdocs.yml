@@ -167,6 +167,24 @@ nav:
     - '02 · Make y Zapier': tutoriales/automatizacion/02-make-zapier-ia.md
     - '03 · Pipelines de negocio': tutoriales/automatizacion/03-pipelines-negocio.md
     - '04 · Herramientas de negocio': tutoriales/automatizacion/04-integracion-herramientas-negocio.md
+  - Bloque 26 — Familia Claude 4.X:
+    - Índice: tutoriales/claude-4/README.md
+    - '01 · Familia Claude 4.X': tutoriales/claude-4/01-familia-claude-4.md
+    - '02 · Extended Thinking': tutoriales/claude-4/02-extended-thinking-opus.md
+    - '03 · Comparativa de versiones': tutoriales/claude-4/03-comparativa-versiones.md
+    - '04 · Mejores prácticas': tutoriales/claude-4/04-mejores-practicas-claude4.md
+  - Bloque 27 — Benchmarks y evaluación:
+    - Índice: tutoriales/benchmarks/README.md
+    - '01 · Benchmarks públicos': tutoriales/benchmarks/01-benchmarks-publicos.md
+    - '02 · Evaluación propia': tutoriales/benchmarks/02-evaluacion-propia.md
+    - '03 · Comparativa de modelos': tutoriales/benchmarks/03-comparativa-modelos.md
+    - '04 · Selección de modelo': tutoriales/benchmarks/04-seleccion-modelo.md
+  - Bloque 28 — Computer Use / Operator:
+    - Índice: tutoriales/computer-use-operator/README.md
+    - '01 · Introducción a Computer Use': tutoriales/computer-use-operator/01-computer-use-intro.md
+    - '02 · Automatización web': tutoriales/computer-use-operator/02-automatizacion-web.md
+    - '03 · Casos empresariales': tutoriales/computer-use-operator/03-casos-empresariales.md
+    - '04 · Seguridad y límites': tutoriales/computer-use-operator/04-seguridad-y-limites.md
   - Notebooks: tutoriales/notebooks/README.md
   - Hoja de ruta: TODO.md
   - Bitácora: BITACORA.md

@@ -11,6 +11,47 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.2.0] — 2026-04-20
+
+### Añadido
+
+- **Bloque 26 — Familia Claude 4.X**: 4 artículos + README + 4 notebooks con badge Open in Colab
+  - `01-familia-claude-4.md` — Opus 4.7, Sonnet 4.6, Haiku 4.5: tabla comparativa, árbol de decisión, router automático de modelos
+  - `02-extended-thinking-opus.md` — budget_tokens, betas interleaved-thinking, streaming de bloques thinking, estimación de costes
+  - `03-comparativa-versiones.md` — tabla de migración de model IDs, script de migración en masa, test de output estructurado
+  - `04-mejores-practicas-claude4.md` — Prompt Caching, retry/backoff, rate limiting, Langfuse, streaming, structured output
+  - 4 notebooks interactivos: comparativa de velocidad, demo de thinking, script de migración, caching + retry
+
+- **Bloque 27 — Benchmarks y evaluación de modelos**: 4 artículos + README + 4 notebooks
+  - `01-benchmarks-publicos.md` — MMLU, HumanEval, GSM8K, LMSYS Chatbot Arena, cómo interpretarlos
+  - `02-evaluacion-propia.md` — Golden dataset, LLM-as-judge con rúbrica JSON ponderada, GestorBenchmark completo
+  - `03-comparativa-modelos.md` — Benchmark multi-proveedor, medición de latencia, integración con OpenRouter
+  - `04-seleccion-modelo.md` — Árbol de decisión, router con patrones regex, clase ABTesting, monitorización con Langfuse
+  - 4 notebooks interactivos con visualizaciones matplotlib
+
+- **Bloque 28 — Computer Use / Operator**: 4 artículos + README + 4 notebooks
+  - `01-computer-use-intro.md` — Diagrama de bucle de control, herramientas (computer/bash/text_editor), Docker Compose, agente completo
+  - `02-automatizacion-web.md` — CU vs Playwright, scraping visual, relleno de formularios, patrón de reintentos
+  - `03-casos-empresariales.md` — ERP facturas, triaje email, sincronización CRM, testing visual, n8n, calculadora ROI
+  - `04-seguridad-y-limites.md` — Lista de acciones prohibidas, whitelist URLs, guardrail bash, HITL, audit log con redacción PII
+  - 4 notebooks con advertencia ⚠️ Docker necesario
+
+- **Notebooks faltantes — agentes-avanzados** (6 notebooks):
+  - `05-autogen.ipynb` — ConversableAgent, GroupChat, GroupChatManager
+  - `06-a2a-protocol.ipynb` — AgentCard, Task, TaskStatus con Pydantic, servidor FastAPI, cliente httpx
+  - `07-langgraph-agentes.ipynb` — StateGraph tipado, MemorySaver, interrupt_before para HITL
+  - `08-evaluacion-agentes.ipynb` — TrayectoriaAgente con métricas, LLM-as-judge, red teaming básico
+  - `09-agentes-codigo.ipynb` — exec() seguro con validación AST, agente analista Pandas, generador de tests
+  - `10-agentes-especializados.ipynb` — Research Agent (DuckDuckGo), Financial Agent (solo análisis), Code Review Agent
+
+- **Notebooks faltantes — fundamentos** (2 notebooks):
+  - `02-tipos-de-ia.ipynb` — Diagrama de taxonomía, clasificador Iris, tabla comparativa ML/DL/LLM
+  - `03-historia-de-la-ia.ipynb` — Timeline matplotlib 1950-2025, gráfico de crecimiento de parámetros, análisis inviernos IA
+
+- Todos los notebooks nuevos incluyen badge **Open in Colab**
+
+---
+
 ## [1.1.0] — 2026-04-20
 
 ### Añadido

@@ -398,3 +398,63 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 - [x] `notebooks/python-para-ia/01-intro-python-ia.ipynb`
 - [x] `notebooks/python-para-ia/02-librerias-esenciales.ipynb`
 - [x] `notebooks/python-para-ia/03-jupyter-notebooks.ipynb`
+
+---
+
+## Bloque 26 — Familia Claude 4.X ✅
+
+- [x] `tutoriales/claude-4/README.md`
+- [x] `tutoriales/claude-4/01-familia-claude-4.md` — Opus 4.7 / Sonnet 4.6 / Haiku 4.5, árbol de decisión, router automático
+- [x] `tutoriales/claude-4/02-extended-thinking-opus.md` — budget_tokens, betas, streaming thinking, estimación costes
+- [x] `tutoriales/claude-4/03-comparativa-versiones.md` — migración de model IDs, script de migración, structured output
+- [x] `tutoriales/claude-4/04-mejores-practicas-claude4.md` — Prompt Caching, retry, rate limiting, Langfuse, streaming
+- [x] `notebooks/claude-4/01-familia-claude-4.ipynb`
+- [x] `notebooks/claude-4/02-extended-thinking-opus.ipynb`
+- [x] `notebooks/claude-4/03-comparativa-versiones.ipynb`
+- [x] `notebooks/claude-4/04-mejores-practicas-claude4.ipynb`
+
+---
+
+## Bloque 27 — Benchmarks y evaluación de modelos ✅
+
+- [x] `tutoriales/benchmarks/README.md`
+- [x] `tutoriales/benchmarks/01-benchmarks-publicos.md` — MMLU, HumanEval, GSM8K, LMSYS Arena
+- [x] `tutoriales/benchmarks/02-evaluacion-propia.md` — Golden dataset, LLM-as-judge, GestorBenchmark
+- [x] `tutoriales/benchmarks/03-comparativa-modelos.md` — Benchmark multi-proveedor, latencia, OpenRouter
+- [x] `tutoriales/benchmarks/04-seleccion-modelo.md` — Router regex, ABTesting, Langfuse monitoring
+- [x] `notebooks/benchmarks/01-benchmarks-publicos.ipynb`
+- [x] `notebooks/benchmarks/02-evaluacion-propia.ipynb`
+- [x] `notebooks/benchmarks/03-comparativa-modelos.ipynb`
+- [x] `notebooks/benchmarks/04-seleccion-modelo.ipynb`
+
+---
+
+## Bloque 28 — Computer Use / Operator ✅
+
+- [x] `tutoriales/computer-use-operator/README.md`
+- [x] `tutoriales/computer-use-operator/01-computer-use-intro.md` — Bucle control, herramientas, Docker, agente completo
+- [x] `tutoriales/computer-use-operator/02-automatizacion-web.md` — CU vs Playwright, scraping visual, formularios
+- [x] `tutoriales/computer-use-operator/03-casos-empresariales.md` — ERP, email, CRM, testing visual, n8n, ROI
+- [x] `tutoriales/computer-use-operator/04-seguridad-y-limites.md` — Acciones prohibidas, whitelist, HITL, audit log
+- [x] `notebooks/computer-use-operator/01-computer-use-intro.ipynb`
+- [x] `notebooks/computer-use-operator/02-automatizacion-web.ipynb`
+- [x] `notebooks/computer-use-operator/03-casos-empresariales.ipynb`
+- [x] `notebooks/computer-use-operator/04-seguridad-y-limites.ipynb`
+
+---
+
+## Notebooks faltantes — agentes-avanzados ✅
+
+- [x] `notebooks/agentes-avanzados/05-autogen.ipynb`
+- [x] `notebooks/agentes-avanzados/06-a2a-protocol.ipynb`
+- [x] `notebooks/agentes-avanzados/07-langgraph-agentes.ipynb`
+- [x] `notebooks/agentes-avanzados/08-evaluacion-agentes.ipynb`
+- [x] `notebooks/agentes-avanzados/09-agentes-codigo.ipynb`
+- [x] `notebooks/agentes-avanzados/10-agentes-especializados.ipynb`
+
+---
+
+## Notebooks faltantes — fundamentos ✅
+
+- [x] `notebooks/fundamentos/02-tipos-de-ia.ipynb`
+- [x] `notebooks/fundamentos/03-historia-de-la-ia.ipynb`
