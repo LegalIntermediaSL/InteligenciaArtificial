@@ -41,6 +41,9 @@ El proyecto nace con la vocación de ser una guía progresiva: desde los concept
 | **23 — Claude Code** | CLI, MCP servers personalizados, hooks, flujos de desarrollo con IA |
 | **24 — PydanticAI y frameworks** | PydanticAI (tipado, TestModel, nested agents), Mastra.ai (TypeScript), comparativa LangGraph/CrewAI/AutoGen |
 | **25 — Proyectos integradores** | 4 proyectos completos: SaaS contratos, chatbot soporte, pipeline contenido, asistente datos |
+| **26 — Familia Claude 4.X** | Opus 4.7, Sonnet 4.6, Haiku 4.5: comparativa, Extended Thinking, migración de versiones, mejores prácticas |
+| **27 — Benchmarks y evaluación** | MMLU, HumanEval, LMSYS Arena, evaluación propia con LLM-as-judge, router de modelos, A/B testing |
+| **28 — Computer Use / Operator** | Bucle de control, automatización web, casos empresariales, seguridad, límites y HITL |
 
 ---
 
@@ -73,6 +76,9 @@ InteligenciaArtificial/
 │   ├── claude-code/                  # Bloque 23 — Claude Code y desarrollo asistido
 │   ├── pydanticai/                   # Bloque 24 — PydanticAI, Mastra.ai y frameworks de agentes
 │   ├── proyectos-integradores/       # Bloque 25 — Proyectos completos de principio a fin
+│   ├── claude-4/                     # Bloque 26 — Familia Claude 4.X (Opus/Sonnet/Haiku)
+│   ├── benchmarks/                   # Bloque 27 — Benchmarks y evaluación de modelos
+│   ├── computer-use-operator/        # Bloque 28 — Computer Use / Operator
 │   └── notebooks/                    # Notebooks Jupyter interactivos (todos los bloques)
 ├── javascript/                       # Bloque 6 — Ejemplos JS/TS
 ├── README.md                         # Este archivo
@@ -112,10 +118,13 @@ Bloque 1 (Fundamentos)
                           ├─► Bloque 22 (Workflows n8n)
                           ├─► Bloque 23 (Claude Code)
                           ├─► Bloque 24 (PydanticAI y frameworks)
-                          └─► Bloque 25 (Proyectos integradores)
+                          ├─► Bloque 25 (Proyectos integradores)
+                          ├─► Bloque 26 (Familia Claude 4.X)
+                          ├─► Bloque 27 (Benchmarks y evaluación)
+                          └─► Bloque 28 (Computer Use / Operator)
 ```
 
-Los bloques del 7 al 23 son independientes entre sí y pueden leerse en cualquier orden una vez completados los 5 primeros. El Bloque 25 (Proyectos integradores) combina conocimientos de varios bloques y se recomienda como cierre.
+Los bloques del 7 al 28 son independientes entre sí y pueden leerse en cualquier orden una vez completados los 5 primeros. El Bloque 25 (Proyectos integradores) combina conocimientos de varios bloques y se recomienda como cierre.
 
 ---
 
@@ -207,4 +216,4 @@ Distribuido bajo licencia **MIT** — ver [LICENSE](./LICENSE) para más detalle
 
 ---
 
-*Mantenido por [LegalIntermediaSL](https://github.com/LegalIntermediaSL) · 17 bloques · 84+ tutoriales · Última actualización: abril 2026*
+*Mantenido por [LegalIntermediaSL](https://github.com/LegalIntermediaSL) · 28 bloques · 120+ tutoriales · Última actualización: abril 2026*
