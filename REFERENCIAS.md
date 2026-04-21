@@ -47,6 +47,14 @@ para todos los bloques del repositorio.
 | Vertex AI | https://cloud.google.com/vertex-ai/docs | Plataforma MLOps de Google |
 | A2A Protocol | https://google.github.io/A2A | Agent-to-Agent protocol |
 
+### Modelos Claude 4.X
+| Recurso | URL | Descripción |
+|---------|-----|-------------|
+| Claude claude-opus-4-7 | https://docs.anthropic.com/en/docs/about-claude/models | claude-opus-4-7 — máximo razonamiento |
+| Claude claude-sonnet-4-6 | https://docs.anthropic.com/en/docs/about-claude/models | claude-sonnet-4-6 — equilibrio rendimiento/coste |
+| Claude claude-haiku-4-5 | https://docs.anthropic.com/en/docs/about-claude/models | claude-haiku-4-5-20251001 — velocidad y bajo coste |
+| Extended Thinking (betas) | https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking | interleaved-thinking-2025-05-14 |
+
 ---
 
 ## Frameworks y librerías
@@ -59,6 +67,8 @@ para todos los bloques del repositorio.
 | AutoGen | https://microsoft.github.io/autogen | Multi-agente Microsoft |
 | CrewAI | https://crewai.com | Equipos de agentes colaborativos |
 | DSPy | https://dspy.ai | Programación declarativa para LLMs |
+| PydanticAI | https://ai.pydantic.dev | Agentes tipados con Pydantic |
+| Mastra | https://mastra.ai | Framework de agentes TypeScript |
 
 ### RAG y búsqueda vectorial
 | Librería | URL | Descripción |
@@ -196,6 +206,25 @@ para todos los bloques del repositorio.
 | Weights & Biases | https://wandb.ai | Tracking de experimentos |
 | Arize Phoenix | https://phoenix.arize.com | Observabilidad LLMs open-source |
 
+### Benchmarks públicos
+
+| Benchmark | URL | Descripción |
+|-----------|-----|-------------|
+| MMLU | https://paperswithcode.com/dataset/mmlu | 57 dominios de conocimiento |
+| HumanEval | https://github.com/openai/human-eval | Generación de código Python |
+| GSM8K | https://github.com/openai/grade-school-math | Razonamiento matemático |
+| LMSYS Chatbot Arena | https://lmarena.ai | Comparativa humana de modelos |
+| BIG-Bench | https://github.com/google/BIG-bench | Suite de 204 tareas |
+
+### Computer Use y automatización visual
+
+| Herramienta | URL | Descripción |
+|-------------|-----|-------------|
+| Computer Use (Anthropic) | https://docs.anthropic.com/en/docs/build-with-claude/computer-use | API de control visual |
+| Playwright | https://playwright.dev | Automatización web determinista |
+| PyAutoGUI | https://pyautogui.readthedocs.io | Control GUI multiplataforma |
+| E2B | https://e2b.dev | Sandbox de código seguro en la nube |
+
 ---
 
-*Última actualización: abril 2025. Los precios y disponibilidad de APIs pueden cambiar.*
+*Última actualización: abril 2026. Los precios y disponibilidad de APIs pueden cambiar.*

@@ -4,6 +4,24 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-21 (v1.2.0)
+
+### Bloques 26–28, notebooks faltantes, badges Colab y correcciones de nav
+
+- Se añade el **Bloque 26 — Familia Claude 4.X**: documentación de los tres modelos actuales (`claude-opus-4-7`, `claude-sonnet-4-6`, `claude-haiku-4-5-20251001`). El artículo clave es el árbol de decisión de `01-familia-claude-4.md` — responde "¿qué modelo uso?" sin rodeos. Extended Thinking se documenta con el header `betas=["interleaved-thinking-2025-05-14"]` y `budget_tokens` porque es la configuración exacta que funciona en producción, no la simplificada de la documentación oficial. El artículo `03-comparativa-versiones.md` incluye un script de migración masiva de model IDs (search-replace en todos los archivos Python de un proyecto), útil para quien tenga código con model IDs anteriores.
+
+- Se añade el **Bloque 27 — Benchmarks y evaluación**: el artículo central es `02-evaluacion-propia.md` con `GestorBenchmark`, que implementa el ciclo completo golden-dataset → LLM-as-judge → métricas → informe. Decisión: usar una rúbrica JSON ponderada (no solo puntuación 0-10) porque los distintos criterios tienen pesos distintos según el caso de uso. El artículo `04-seleccion-modelo.md` incluye un router de modelos basado en patrones regex que clasifica automáticamente la complejidad de la tarea — patrón directamente usable en producción sin dependencias extra.
+
+- Se añade el **Bloque 28 — Computer Use / Operator**: el artículo `04-seguridad-y-limites.md` es el más importante del bloque — Computer Use es la funcionalidad de mayor riesgo del repositorio y requiere guardrails explícitos. Decisión de diseño: incluir una lista de acciones *explícitamente prohibidas* (no solo las permitidas) porque en sistemas autónomos es más seguro denegar por defecto y permitir explícitamente que al revés. El audit log con redacción automática de PII usa regex + `re.sub` sin dependencias externas para que funcione en cualquier entorno.
+
+- **Cierre de huecos en notebooks** (agentes-avanzados 05-10 + fundamentos 02-03): el notebook `08-evaluacion-agentes.ipynb` documenta LLM-as-judge con una rúbrica de 4 criterios y red teaming básico con 5 casos adversariales. El `06-a2a-protocol.ipynb` implementa el protocolo A2A de Google completo con FastAPI: `AgentCard`, `Task`, `TaskStatus` como modelos Pydantic y un cliente `httpx` que simula la comunicación entre agentes.
+
+- **Script `add_colab_badges.py`**: detectó y corrigió un notebook con JSON inválido (`03-hooks-automatizacion.ipynb` tenía `},\\n",` espurio en la sección de metadata) antes de añadir los badges. En total añadió badges a 69 notebooks que carecían de ellos; 56 ya los tenían desde su creación. El script es idempotente — puede ejecutarse múltiples veces sin duplicar badges.
+
+- **Corrección de nav**: los bloques 18-25 existían en el repositorio desde versiones anteriores pero no tenían entradas en `mkdocs.yml`, por lo que no aparecían en GitHub Pages. Se añaden las 8 secciones que faltaban. Lección: en futuras versiones, añadir la entrada de nav en el mismo commit que el contenido.
+
+---
+
 ## 2026-04-20 (v1.1.0)
 
 ### Bloque 24, ampliación de Fundamentos y Multimodalidad, relleno de notebooks

@@ -98,7 +98,7 @@ nav:
     - Índice: javascript/README.md
     - '01 · LangChain.js': javascript/01-langchain-js.md
     - '02 · Vercel AI SDK': javascript/02-vercel-ai-sdk.md
-    - '03 · Next.js + IA': javascript/03-nextjs-ia.md
+    - '03 · Next.js + IA (chatbot de producción)': javascript/03-nextjs-ia.md
   - Bloque 7 — Producción y evaluación:
     - Índice: tutoriales/produccion/README.md
     - '01 · Evaluación de LLMs': tutoriales/produccion/01-evaluacion-llms.md
