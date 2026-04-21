@@ -458,3 +458,17 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 
 - [x] `notebooks/fundamentos/02-tipos-de-ia.ipynb`
 - [x] `notebooks/fundamentos/03-historia-de-la-ia.ipynb`
+
+---
+
+## Bloque 29 — Voz y Audio con IA ✅
+
+- [x] `tutoriales/voz-audio/README.md`
+- [x] `tutoriales/voz-audio/01-whisper-avanzado.md` — Chunking, diarización, timestamps, post-procesado con Claude
+- [x] `tutoriales/voz-audio/02-sintesis-voz.md` — ElevenLabs, OpenAI TTS, SSML, streaming, comparativa
+- [x] `tutoriales/voz-audio/03-agentes-voz-realtime.md` — WebSockets, VAD, latencia <500ms, OpenAI Realtime API
+- [x] `tutoriales/voz-audio/04-generacion-audio-creativo.md` — MusicGen local, ElevenLabs SFX, pipeline Claude→MusicGen
+- [x] `notebooks/voz-audio/01-whisper-avanzado.ipynb`
+- [x] `notebooks/voz-audio/02-sintesis-voz.ipynb`
+- [x] `notebooks/voz-audio/03-agentes-voz-realtime.ipynb`
+- [x] `notebooks/voz-audio/04-generacion-audio-creativo.ipynb`

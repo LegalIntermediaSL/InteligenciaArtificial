@@ -4,6 +4,18 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-21 (v1.3.0)
+
+### Bloque 29 — Voz y Audio con IA
+
+- Se cierra el **Bloque 29 — Voz y Audio con IA** con 4 artículos + README + 4 notebooks. El bloque existía parcialmente en el repositorio (artículos 01-03 y README ya confirmados) pero el artículo 04 y todos los notebooks estaban sin confirmar. Se completa el bloque, se añade la entrada en `mkdocs.yml` (que faltaba), y se actualiza README, TODO y CHANGELOG.
+
+- Artículo más técnico del bloque: `03-agentes-voz-realtime.md` — implementa el bucle completo de latencia <500ms con OpenAI Realtime API vía WebSockets, VAD (Voice Activity Detection) y gestión de interrupciones del usuario. Decisión: documentar el manejo de interrupciones explícitamente porque es la causa más común de experiencia de usuario deficiente en agentes de voz.
+
+- `04-generacion-audio-creativo.md` cierra el bloque con el caso más abierto: generación musical. Se prioriza MusicGen (Meta, open-source, sin coste por uso) sobre Suno/Udio porque no requiere API externa y permite integración local. El pipeline Claude→MusicGen muestra cómo el LLM actúa como traductor de contexto a prompt musical optimizado.
+
+---
+
 ## 2026-04-21 (v1.2.0)
 
 ### Bloques 26–28, notebooks faltantes, badges Colab y correcciones de nav

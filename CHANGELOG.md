@@ -11,6 +11,21 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.3.0] — 2026-04-21
+
+### Añadido
+
+- **Bloque 29 — Voz y Audio con IA**: 4 artículos + README + 4 notebooks con badge Open in Colab
+  - `01-whisper-avanzado.md` — Chunking para archivos >25MB, diarización con pyannote, timestamps de palabras, post-procesado con Claude
+  - `02-sintesis-voz.md` — ElevenLabs (clonación, SSML, streaming), OpenAI TTS, comparativa de proveedores y casos de uso
+  - `03-agentes-voz-realtime.md` — WebSockets con OpenAI Realtime API, VAD, latencia <500ms, pipeline de asistente de voz completo
+  - `04-generacion-audio-creativo.md` — MusicGen (Meta, open-source), ElevenLabs SFX, pipeline Claude→MusicGen, podcast y audiolibro automatizados
+  - 4 notebooks interactivos con badge Open in Colab
+
+- `mkdocs.yml` — Bloque 29 añadido a la navegación de GitHub Pages
+
+---
+
 ## [1.2.0] — 2026-04-20
 
 ### Añadido

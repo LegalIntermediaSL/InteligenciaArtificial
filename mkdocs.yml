@@ -234,6 +234,12 @@ nav:
     - '02 · Automatización web': tutoriales/computer-use-operator/02-automatizacion-web.md
     - '03 · Casos empresariales': tutoriales/computer-use-operator/03-casos-empresariales.md
     - '04 · Seguridad y límites': tutoriales/computer-use-operator/04-seguridad-y-limites.md
+  - Bloque 29 — Voz y Audio con IA:
+    - Índice: tutoriales/voz-audio/README.md
+    - '01 · Whisper avanzado': tutoriales/voz-audio/01-whisper-avanzado.md
+    - '02 · Síntesis de voz': tutoriales/voz-audio/02-sintesis-voz.md
+    - '03 · Agentes de voz en tiempo real': tutoriales/voz-audio/03-agentes-voz-realtime.md
+    - '04 · Generación musical y audio creativo': tutoriales/voz-audio/04-generacion-audio-creativo.md
   - Notebooks: tutoriales/notebooks/README.md
   - Hoja de ruta: TODO.md
   - Bitácora: BITACORA.md
