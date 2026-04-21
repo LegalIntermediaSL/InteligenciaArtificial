@@ -45,6 +45,7 @@ El proyecto nace con la vocación de ser una guía progresiva: desde los concept
 | **27 — Benchmarks y evaluación** | MMLU, HumanEval, LMSYS Arena, evaluación propia con LLM-as-judge, router de modelos, A/B testing |
 | **28 — Computer Use / Operator** | Bucle de control, automatización web, casos empresariales, seguridad, límites y HITL |
 | **29 — Voz y Audio con IA** | Whisper avanzado, síntesis ElevenLabs/OpenAI TTS, agentes de voz en tiempo real, generación musical con MusicGen |
+| **30 — GraphRAG y Bases de Conocimiento** | Neo4j, GraphRAG de Microsoft, extracción de grafos con LLMs, RAG híbrido grafo+vector en producción |
 
 ---
 
@@ -81,6 +82,7 @@ InteligenciaArtificial/
 │   ├── benchmarks/                   # Bloque 27 — Benchmarks y evaluación de modelos
 │   ├── computer-use-operator/        # Bloque 28 — Computer Use / Operator
 │   ├── voz-audio/                    # Bloque 29 — Voz y Audio con IA
+│   ├── graphrag/                     # Bloque 30 — GraphRAG y Bases de Conocimiento
 │   └── notebooks/                    # Notebooks Jupyter interactivos (todos los bloques)
 ├── javascript/                       # Bloque 6 — Ejemplos JS/TS
 ├── README.md                         # Este archivo
@@ -218,4 +220,4 @@ Distribuido bajo licencia **MIT** — ver [LICENSE](./LICENSE) para más detalle
 
 ---
 
-*Mantenido por [LegalIntermediaSL](https://github.com/LegalIntermediaSL) · 29 bloques · 125+ tutoriales · Última actualización: abril 2026*
+*Mantenido por [LegalIntermediaSL](https://github.com/LegalIntermediaSL) · 30 bloques · 135+ tutoriales · Última actualización: abril 2026*

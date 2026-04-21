@@ -4,6 +4,22 @@ Registro cronológico de decisiones, aprendizajes, problemas encontrados y soluc
 
 ---
 
+## 2026-04-21 (v1.4.0)
+
+### Bloque 30 (GraphRAG), ampliaciones LLMs, Agentes y APIs avanzadas
+
+- Se añade el **Bloque 30 — GraphRAG y Bases de Conocimiento**. Decisión de diseño: GraphRAG se presenta como complemento a VectorRAG, no como sustituto. El artículo `04-graphrag-en-produccion.md` implementa `HybridRAG`, que usa Claude Haiku para clasificar la pregunta y decide qué backend (Neo4j o ChromaDB) es más apropiado — patrón directamente usable en producción sin cambios. El artículo `03` usa `union-find` para deduplicar entidades similares extraídas de diferentes chunks, evitando nodos duplicados en el grafo sin depender de una base vectorial externa.
+
+- **Ampliación Bloque 2 — LLMs** con `13-razonamiento-avanzado.md`: cubre Self-Consistency (N muestras + votación) como técnica accesible sin infrastructure adicional, y diferencia Extended Thinking de Claude de un CoT manual — el thinking está garantizado por el modelo y no puede ser inyectado por el usuario. Decisión: incluir Tree of Thoughts como implementación simplificada sin librerías, para que el lector entienda el mecanismo antes de usar frameworks como LangGraph para variantes complejas.
+
+- **Ampliación Bloque 9 — Agentes** con `11-openai-agents-sdk.md`: comparativa honesta con Claude Agent SDK y LangGraph. Decisión clave: documentar explícitamente que el OpenAI Agents SDK favorece simplicidad sobre control fino — es la herramienta adecuada para sistemas de 2-5 agentes con handoffs claros, pero LangGraph es mejor para flujos con ciclos y estado complejo.
+
+- **Ampliación Bloque 18 — APIs avanzadas** con `06-token-counting.md`: el artículo más corto del bloque pero con alta utilidad práctica. La comparativa español vs inglés (el español usa ~10-20% más tokens) es un dato relevante para proyectos en castellano que optimizan costes. La predicción de ahorro con Prompt Caching permite justificar la activación antes de medir resultados reales.
+
+- **Corrección de nav en mkdocs.yml**: los tutoriales 07-10 de agentes-avanzados no tenían entrada en la navegación desde que se crearon en v0.7.0. Se añaden en esta versión junto con las nuevas entradas.
+
+---
+
 ## 2026-04-21 (v1.3.0)
 
 ### Bloque 29 — Voz y Audio con IA

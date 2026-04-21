@@ -76,6 +76,7 @@ nav:
     - '10 · Gestión del contexto': tutoriales/llms/10-gestion-contexto.md
     - '11 · Tokenización': tutoriales/llms/11-tokenizacion.md
     - '12 · Function calling avanzado': tutoriales/llms/12-function-calling-avanzado.md
+    - '13 · Razonamiento avanzado': tutoriales/llms/13-razonamiento-avanzado.md
   - Bloque 3 — APIs de IA:
     - Índice: tutoriales/apis/README.md
     - '01 · API de Anthropic (Claude)': tutoriales/apis/01-api-anthropic-claude.md
@@ -118,6 +119,11 @@ nav:
     - '04 · Memoria a largo plazo': tutoriales/agentes-avanzados/04-memoria-largo-plazo.md
     - '05 · AutoGen': tutoriales/agentes-avanzados/05-autogen.md
     - '06 · A2A Protocol': tutoriales/agentes-avanzados/06-a2a-protocol.md
+    - '07 · LangGraph para agentes': tutoriales/agentes-avanzados/07-langgraph-agentes.md
+    - '08 · Evaluación de agentes': tutoriales/agentes-avanzados/08-evaluacion-agentes.md
+    - '09 · Agentes de código': tutoriales/agentes-avanzados/09-agentes-codigo.md
+    - '10 · Agentes especializados': tutoriales/agentes-avanzados/10-agentes-especializados.md
+    - '11 · OpenAI Agents SDK': tutoriales/agentes-avanzados/11-openai-agents-sdk.md
   - Bloque 10 — Casos de uso avanzados:
     - Índice: tutoriales/casos-de-uso-avanzados/README.md
     - '01 · Generación y revisión de código': tutoriales/casos-de-uso-avanzados/01-generacion-revision-codigo.md
@@ -174,6 +180,7 @@ nav:
     - '03 · Files API': tutoriales/apis-avanzadas/03-files-api.md
     - '04 · Citations API': tutoriales/apis-avanzadas/04-citations-api.md
     - '05 · Prompt Caching': tutoriales/apis-avanzadas/05-prompt-caching.md
+    - '06 · Token Counting API': tutoriales/apis-avanzadas/06-token-counting.md
   - Bloque 19 — Agent SDK:
     - Índice: tutoriales/agent-sdk/README.md
     - '01 · Primeros pasos': tutoriales/agent-sdk/01-primeros-pasos.md
@@ -240,6 +247,12 @@ nav:
     - '02 · Síntesis de voz': tutoriales/voz-audio/02-sintesis-voz.md
     - '03 · Agentes de voz en tiempo real': tutoriales/voz-audio/03-agentes-voz-realtime.md
     - '04 · Generación musical y audio creativo': tutoriales/voz-audio/04-generacion-audio-creativo.md
+  - Bloque 30 — GraphRAG y Bases de Conocimiento:
+    - Índice: tutoriales/graphrag/README.md
+    - '01 · Grafos y Neo4j': tutoriales/graphrag/01-grafos-y-neo4j.md
+    - '02 · GraphRAG de Microsoft': tutoriales/graphrag/02-graphrag-microsoft.md
+    - '03 · Extracción de grafos con LLM': tutoriales/graphrag/03-extraccion-grafos-con-llm.md
+    - '04 · GraphRAG en producción': tutoriales/graphrag/04-graphrag-en-produccion.md
   - Notebooks: tutoriales/notebooks/README.md
   - Hoja de ruta: TODO.md
   - Bitácora: BITACORA.md

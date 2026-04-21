@@ -11,6 +11,33 @@ y el proyecto sigue [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.4.0] — 2026-04-21
+
+### Añadido
+
+- **Bloque 30 — GraphRAG y Bases de Conocimiento**: 4 artículos + README + 4 notebooks
+  - `01-grafos-y-neo4j.md` — Neo4j, Cypher básico/avanzado, modelado de grafo de empresa, algoritmos PageRank y betweenness con GDS
+  - `02-graphrag-microsoft.md` — Pipeline de indexación (chunking → entidades → comunidades), búsqueda global vs local, clase `GraphRAGClient`, estimación de costes
+  - `03-extraccion-grafos-con-llm.md` — Extracción de entidades y relaciones con Claude y tool_use, esquema Pydantic, deduplicación por embeddings, almacenamiento en Neo4j
+  - `04-graphrag-en-produccion.md` — `HybridRAG` (Neo4j + ChromaDB), enrutamiento inteligente, `MonitorGraphRAG`, actualización incremental, checklist de producción
+  - 4 notebooks interactivos con badge Open in Colab
+
+- **Ampliación Bloque 2 — LLMs**:
+  - `13-razonamiento-avanzado.md` — Zero-shot CoT, few-shot CoT, Self-Consistency con votación, Tree of Thoughts simplificado, Extended Thinking de Claude
+  - Notebook `13-razonamiento-avanzado.ipynb`
+
+- **Ampliación Bloque 9 — Agentes avanzados**:
+  - `11-openai-agents-sdk.md` — Primitivas Agent/Runner, handoffs entre agentes especializados, InputGuardrail/OutputGuardrail, sistema de triage multi-agente, comparativa con Claude Agent SDK y LangGraph
+  - Notebook `11-openai-agents-sdk.ipynb`
+
+- **Ampliación Bloque 18 — APIs avanzadas Anthropic**:
+  - `06-token-counting.md` — `client.messages.count_tokens()`, `TokenBudgetManager`, estimación de coste en €, comparativa ES/EN, predicción de ahorro con Prompt Caching
+  - Notebook `06-token-counting.ipynb`
+
+- `mkdocs.yml` — Añadidas entradas de navegación para Bloque 30, tutoriales 07-11 de agentes avanzados, tutorial 13 de LLMs y tutorial 06 de APIs avanzadas
+
+---
+
 ## [1.3.0] — 2026-04-21
 
 ### Añadido

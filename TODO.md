@@ -461,6 +461,31 @@ Lista de tareas pendientes y contenido por desarrollar en el proyecto.
 
 ---
 
+## Ampliaciones — Bloque 2, 9 y 18 ✅
+
+- [x] `tutoriales/llms/13-razonamiento-avanzado.md` — CoT, Self-Consistency, Tree of Thoughts, Extended Thinking
+- [x] `notebooks/llms/13-razonamiento-avanzado.ipynb`
+- [x] `tutoriales/agentes-avanzados/11-openai-agents-sdk.md` — OpenAI Agents SDK, handoffs, guardrails, swarm
+- [x] `notebooks/agentes-avanzados/11-openai-agents-sdk.ipynb`
+- [x] `tutoriales/apis-avanzadas/06-token-counting.md` — Token Counting API, presupuesto, estimación de costes
+- [x] `notebooks/apis-avanzadas/06-token-counting.ipynb`
+
+---
+
+## Bloque 30 — GraphRAG y Bases de Conocimiento ✅
+
+- [x] `tutoriales/graphrag/README.md`
+- [x] `tutoriales/graphrag/01-grafos-y-neo4j.md` — Neo4j, Cypher, modelado de grafos, algoritmos GDS
+- [x] `tutoriales/graphrag/02-graphrag-microsoft.md` — Pipeline de indexación, búsqueda global/local, GraphRAGClient
+- [x] `tutoriales/graphrag/03-extraccion-grafos-con-llm.md` — Extracción con Claude, Pydantic, deduplicación, Neo4j
+- [x] `tutoriales/graphrag/04-graphrag-en-produccion.md` — HybridRAG, comparativa, monitorización, checklist
+- [x] `notebooks/graphrag/01-grafos-y-neo4j.ipynb`
+- [x] `notebooks/graphrag/02-graphrag-microsoft.ipynb`
+- [x] `notebooks/graphrag/03-extraccion-grafos-con-llm.ipynb`
+- [x] `notebooks/graphrag/04-graphrag-en-produccion.ipynb`
+
+---
+
 ## Bloque 29 — Voz y Audio con IA ✅
 
 - [x] `tutoriales/voz-audio/README.md`
